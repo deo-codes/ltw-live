@@ -19,8 +19,15 @@ const rightNav = [
   { label: "Store", href: "/store" },
 ];
 
-export default function Header() {
+interface HeaderProps {
+  transparent?: boolean;
+}
+
+export default function Header({
+  transparent = false,
+}: HeaderProps) {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
     const mediaQuery = window.matchMedia("(min-width: 1280px)");
@@ -60,9 +67,42 @@ export default function Header() {
     };
   }, [isMobileMenuOpen]);
 
+  useEffect(() => {
+    if (!transparent) {
+      setIsScrolled(false);
+      return;
+    }
+
+    const threshold = 56;
+
+    const updateScrollState = () => {
+      setIsScrolled(window.scrollY > threshold);
+    };
+
+    updateScrollState();
+    window.addEventListener("scroll", updateScrollState, { passive: true });
+
+    return () => {
+      window.removeEventListener("scroll", updateScrollState);
+    };
+  }, [transparent]);
+
   return (
-    <header className="fixed inset-x-0 top-0 z-50 bg-black/95 backdrop-blur-md">
-      <div className="h-px w-full bg-gradient-to-r from-transparent via-yellow-500/60 to-transparent" />
+    <header
+      className={`fixed inset-x-0 top-0 z-50 ${
+        transparent && !isScrolled
+          ? "bg-transparent backdrop-blur-0 shadow-none"
+          : "bg-black/90 backdrop-blur-xl shadow-lg shadow-black/20"
+      }`}
+      style={{
+        transitionProperty: "background-color, backdrop-filter, box-shadow",
+        transitionDuration: "500ms",
+        transitionTimingFunction: "ease-out",
+      }}
+    >
+      {(!transparent || isScrolled) && (
+        <div className="h-px w-full bg-gradient-to-r from-transparent via-yellow-500/60 to-transparent" />
+      )}
 
     <div className="mx-auto max-w-[1800px] px-4 sm:px-6 lg:px-8">
 
@@ -175,7 +215,9 @@ export default function Header() {
       </div>
     </div>
 
-    <div className="h-px w-full bg-yellow-500/45" />
+    {(!transparent || isScrolled) && (
+      <div className="h-px w-full bg-yellow-500/45" />
+    )}
 
     <MobileMenu
       isOpen={isMobileMenuOpen}
