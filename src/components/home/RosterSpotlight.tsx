@@ -45,19 +45,19 @@ function BannerCard() {
       <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent" />
 
       <div className="absolute inset-0 flex items-end">
-        <div className="p-6 md:p-10">
-          <h3 className="text-3xl font-black uppercase text-white md:text-5xl">
+        <div className="p-4 sm:p-6 md:p-10">
+          <h3 className="text-2xl leading-tight font-black uppercase text-white sm:text-3xl md:text-5xl">
             Roster Spotlight
           </h3>
 
-          <p className="mt-3 max-w-xl text-gray-300">
+          <p className="mt-2 max-w-xl text-sm text-gray-300 sm:mt-3 sm:text-base">
             Discover the athletes, personalities, and rivalries
             shaping up in both LTW and RBW.
           </p>
 
           <Link
             href="/roster"
-            className="mt-6 inline-flex items-center rounded-lg bg-yellow-400 px-6 py-3 font-bold text-black transition-all duration-300 hover:scale-105 hover:bg-yellow-300"
+            className="mt-4 inline-flex items-center rounded-lg bg-yellow-400 px-5 py-2.5 text-sm font-bold uppercase tracking-[0.04em] text-black transition-all duration-300 hover:scale-105 hover:bg-yellow-300 sm:mt-6 sm:px-6 sm:py-3 sm:text-base sm:tracking-normal"
           >
             View Full Roster
           </Link>

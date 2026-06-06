@@ -48,7 +48,7 @@ export default function FeaturedShow() {
           {/* Poster */}
           <div className="relative overflow-hidden rounded-2xl">
             <Image
-              src="/images/events/coronation-2026.jpg"
+              src="/images/events/rbw-coronation-2026.jpg"
               alt="Locked Target Wrestling presents RBW's Coronation 2026"
               width={900}
               height={1200}

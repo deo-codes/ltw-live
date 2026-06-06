@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import { X } from "lucide-react";
 
 interface MobileMenuProps {
   isOpen: boolean;
@@ -24,10 +23,9 @@ export default function MobileMenu({
 }: MobileMenuProps) {
   return (
     <>
-      {/* Overlay */}
       <div
         className={`
-          fixed inset-0 z-40 bg-black/70 xl:hidden
+          fixed inset-x-0 top-16 bottom-0 z-40 bg-black/70 xl:hidden
           transition-opacity duration-300
           ${isOpen ? "opacity-100" : "pointer-events-none opacity-0"}
         `}
@@ -35,31 +33,20 @@ export default function MobileMenu({
         aria-hidden={!isOpen}
       />
 
-      {/* Drawer */}
       <div
         id="mobile-site-menu"
         role="dialog"
         aria-modal="true"
         aria-label="Site navigation"
         className={`
-          fixed top-0 right-0 z-50 h-full w-full sm:w-[85vw] sm:max-w-[420px] overflow-y-auto xl:hidden
-          bg-black border-l border-yellow-500/30
-          transform transition-transform duration-300
+          fixed inset-x-0 top-16 z-50 xl:hidden
+          border-y border-zinc-800 bg-black/98 backdrop-blur-sm
+          transition-all duration-300
           ${isOpen ? "pointer-events-auto" : "pointer-events-none"}
-          ${isOpen ? "translate-x-0" : "translate-x-full"}
+          ${isOpen ? "translate-y-0 opacity-100" : "-translate-y-2 opacity-0"}
         `}
       >
-        <div className="flex items-center justify-between border-b border-zinc-800 px-5 py-4 sm:px-6 sm:py-5">
-          <h2 className="[font-family:var(--font-brand-condensed)] text-2xl text-yellow-400 tracking-[0.08em]">
-            MENU
-          </h2>
-
-          <button onClick={onClose} aria-label="Close menu">
-            <X size={24} />
-          </button>
-        </div>
-
-        <nav className="flex flex-col pb-4">
+        <nav className="mx-auto flex w-full max-w-md flex-col items-center px-4 py-6">
           {links.map((link) => (
             <Link
               key={link.label}
@@ -67,13 +54,12 @@ export default function MobileMenu({
               onClick={onClose}
               className="
                 [font-family:var(--font-brand-condensed)]
-                px-5 py-4 sm:px-6 sm:py-4
-                border-b border-zinc-900
-                text-2xl leading-none uppercase tracking-[0.08em]
-                text-zinc-300
+                w-full border-b border-zinc-800/80 py-4 text-center
+                text-4xl leading-none uppercase tracking-[0.08em]
+                text-zinc-100
                 hover:text-yellow-400
                 hover:bg-zinc-950
-                transition
+                transition-colors
               "
             >
               {link.label}

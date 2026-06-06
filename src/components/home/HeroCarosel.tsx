@@ -66,7 +66,8 @@ const slides: HeroSlide[] = [
 
   {
     id: "home-event",
-    image: "/images/hero/LTWBanner2024.jpg",
+    image: "/images/hero/DSC07348_4.JPG",
+    mobileImage: "/images/hero/DSC08904_2.JPG",
     imagePosition: "50% 34%",
     mobileImagePosition: "52% 24%",
     title: "All-Out",

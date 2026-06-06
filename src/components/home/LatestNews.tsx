@@ -27,12 +27,12 @@ imageAlt: "LTW roster spotlight banner",
 },
 
 {
-category: "Championship News",
-title: "Championship Match Signed For Target Locked",
+category: "Danimania 2026",
+title: "Danimania: Pure Greatness",
 date: "May 28, 2026",
 excerpt:
-"Two rivals will collide with championship gold on the line.",
-slug: "/news/championship-match-signed",
+ "LTW's annual summer event returns. Stay tuned for more details on date, location, and match card.",
+slug: "/news/2026-danimania",
 image: "/images/events/2026-danimania.png",
 imageAlt: "2026 Danimania event promotion graphic",
 },
