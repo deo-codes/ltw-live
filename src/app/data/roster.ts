@@ -6,7 +6,7 @@ export const roster: Wrestler[] = [
     id: "1",
     name: "AJ Anderson",
     slug: "aj-anderson",
-    image: "/images/roster/aj-anderson.png",
+    image: "/images/roster/aj-anderson-update.png",
 
     brand: "RBW",
 
@@ -20,6 +20,13 @@ export const roster: Wrestler[] = [
       "LTW Internet Champion",
       "LTW/RBW Key to the Kingdom Champion",
       "RBW Heavyweight Champion"
+    ],
+
+    socials: [
+      { platform: "TikTok", url: "https://www.tiktok.com/@aj.andersonltw" },
+      { platform: "Instagram", url: "https://www.instagram.com/aj_anderson0324" },
+      { platform: "YouTube", url: "https://www.youtube.com/@AJAndersonWrestling" },
+      { platform: "X", url: "https://twitter.com/AjAndersonLTW" }
     ],
 
     matches: [
@@ -45,7 +52,7 @@ export const roster: Wrestler[] = [
     id: "2",
     name: "\"Mr.Hyde\" Lawerence Spiral",
     slug: "mr-hyde-lawerence-spiral",
-    image: "/images/roster/lawerence-spiral.png",
+    image: "/images/roster/lawerence-spiral-update.png",
 
     brand: "LTW",
 
@@ -62,6 +69,12 @@ export const roster: Wrestler[] = [
       "LTW Underground Champion",
       "LTW 24/7 Champion",
       "RBW Regal Champion"
+    ],
+
+      socials: [
+      { platform: "Instagram", url: "https://www.instagram.com/lawrencespiral" },
+      { platform: "Facebook", url: "https://www.facebook.com/lawrence.spirall/" },
+      { platform: "X", url: "https://twitter.com/lawrence_spiral" }
     ],
 
     matches: [
@@ -87,7 +100,7 @@ export const roster: Wrestler[] = [
     id: "3",
     name: "Gangsta X",
     slug: "gangsta-x",
-    image: "/images/roster/gangsta-x.png",
+    image: "/images/roster/gangsta-x-update.png",
 
 
     brand: "LTW",
@@ -95,11 +108,18 @@ export const roster: Wrestler[] = [
     height: "5'9",
     weight: "215 lbs",
 
-    // finisher: "Gangsta Slam",
+    finisher: "X'D Out (Claymore Kick), Greatness DDT (Rainmaker DDT), Lockdown (Dragon Sleeper), The G-Spin (Double Underhook Spinning Neckbreaker)",
+
 
     championships: [
       "LTW 24/7 Champion",
       "LTW Internet Champion"
+    ],
+
+    socials: [
+      { platform: "TikTok", url: "https://www.tiktok.com/@IamGreatness_GX30" },
+      { platform: "Instagram", url: "https://www.instagram.com/IAmGreatness_GX29" },
+      { platform: "X", url: "https://twitter.com/Way2DopeGX28" }
     ],
 
     matches: [
@@ -119,8 +139,7 @@ export const roster: Wrestler[] = [
       id: "4",
       name: "Jack Tradzz",
       slug: "jack-tradzz",
-      image: "/images/roster/jack-tradzz.png",
-      
+      image: "/images/roster/jack-tradzz-update.png",
       brand: "RBW",
       hometown: "Toms River, NJ",
       height: "5'11",
@@ -130,6 +149,16 @@ export const roster: Wrestler[] = [
         "RBW Intercontinental Champion",
         
       ],
+
+      socials: [
+        { platform: "Instagram", url: "https://www.instagram.com/jacktradzzltw" },
+        { platform: "Facebook", url: "https://www.facebook.com/zachary.hausleiter.96" },
+        { platform: "X", url: "https://twitter.com/jacktradzzltw" }
+      ],
+
+      finisher: "Trade Mark",
+
+
       bio: "I'm unpredictable, I'm hardworking, I'm resilient.",
       heroBanner: "/images/hero/jack-tradzz-hero.jpg"
     },
@@ -138,8 +167,7 @@ export const roster: Wrestler[] = [
       id: "5",
       name: "Adam Wolf",
       slug: "adam-wolf",
-      image: "/images/roster/adam-wolf.png",
-      
+      image: "/images/roster/adam-wolf-update2026.png",
       brand: "RBW",
       hometown: "Philadelphia, PA",
       height: "5'8",
@@ -147,9 +175,20 @@ export const roster: Wrestler[] = [
       championships: [
         "LTW 24/7 Champion",
         "RBW Hardcore Champion",
-        "LTW Light Heavyweight Champion"
+        "LTW Light Heavyweight Champion",
+        "LTW Tag Team Champion",
         
       ],
+
+       socials: [
+        { platform: "Instagram", url: "https://www.instagram.com/adamwolfltw" },
+        { platform: "TikTok", url: "https://www.tiktok.com/@adamwolfltw" },
+        { platform: "X", url: "https://twitter.com/adamwolfltw" }
+      ],
+
+       finisher: "Wolfsbane (Jumping Flatliner)",
+
+
       bio: "Has a tendency to fly off the handle when he feels like theres an inequality within the Company. This gets him into situations he probably could have avoided. May not be the strongest or the fastest, but that wont stop him from standing up for what he feels is right.",
       heroBanner: "/images/hero/adam-wolf-hero.jpg"
     },
@@ -158,7 +197,7 @@ export const roster: Wrestler[] = [
       id: "6",
       name: "Decay",
       slug: "decay",
-      image: "/images/roster/decay.png",
+      image: "/images/roster/decay-update.png",
       
       brand: "LTW",
       hometown: "Middletown, NJ",
@@ -173,9 +212,200 @@ export const roster: Wrestler[] = [
         "LTW Wild Card Champion"
         
       ],
+
+      socials: [
+        { platform: "Instagram", url: "https://www.instagram.com/thereal_decay0" },
+        { platform: "X", url: "https://twitter.com/thereal_decay" }
+      ],
+
+      finisher: "Package Piledriver",
+
       bio: "Loner, never handed anything, had to work for everything he’s gotten.",
       heroBanner: "/images/hero/decay-hero2.jpg"
     },
+
+    {
+      id: "7",
+      name: "Prince Malcolm III",
+      slug: "prince-malcolm-iii",
+      image: "/images/roster/prince-malcolm-iii-update.png",
+      brand: "RBW",
+      hometown: "Newark, NJ",
+      height: "5'7",
+      weight: "190 lbs",
+      championships: [
+        "LTW Light Heavyweight Champion",
+        "RBW Intercontinental Champion",
+        "LTW Wild Card Champion"
+      ],
+
+        socials: [
+        { platform: "Instagram", url: "https://www.instagram.com/princenaj1999" },
+        { platform: "X", url: "https://twitter.com/princenaj48" }
+      ],
+      finisher: "Royal decollation, Melodies from Marie",
+      bio: "A little flashy but always straight to the point.",
+      heroBanner: "/images/hero/prince-malcolm-iii-hero.jpg"
+    },
+
+    {
+      id: "8",
+      name: "Ember Rose",
+      slug: "ember-rose",
+      image: "/images/roster/ember-rose-update2026.png",
+      brand: "LTW",
+      hometown: "Jackson, NJ",
+      height: "5'7",
+      weight: "N/A",
+      championships: [
+        "LTW 24/7 Champion",
+        
+      ],
+      socials: [
+        { platform: "Instagram", url: "https://www.instagram.com/emberroseofficial_ltw" },
+        { platform: "TikTok", url: "https://www.tiktok.com/@xember_rosex" },
+        { platform: "X", url: "https://twitter.com/EmberRose_LTW" },
+        { platform: "Facebook", url: "https://www.facebook.com/EmberRoseLTWOfficial" }
+
+      ],
+       // finisher: "Royal decollation, Melodies from Marie",
+      bio: "Valet and Manager for the Final Chapter (Gunnar, BioHazard & The All Father); Fierce and loyal to her stable, while being highly protective and aggressive when it calls for it. She will do anything in her power to make sure the Final Chapter stays on top, and is a no nonsense competitor when other factions insert themselves into Final Chapter business. She has held the 24/7 Championship twice, and uses anything necessary to make sure that hers, and any gold the Final Chapter possesses, stays right where it belongs. She can be seen at ring side holding those championships when they are not on the line, as well as returning them to their rightful holder once matches have ended. She is the mouthpiece of the Final Chapter – she does the talking, they handle everything else. ",
+      heroBanner: "/images/hero/ember-rose-hero.jpg"
+    },
+
+    {
+      id: "9",
+      name: "\"Rockstar\" Joey T",
+      slug: "rockstar-joey-t",
+      image: "/images/roster/rockstar-joey-t-update.png",
+      brand: "LTW",
+      hometown: "New Brunswick, NJ",
+      height: "5'8",
+      weight: "170 lbs",
+      championships: [
+        "LTW 24/7 Champion",
+        "LTW Light Heavyweight Champion",
+        "RBW Continental Champion"
+        
+      ],
+      socials: [
+        { platform: "Instagram", url: "https://www.instagram.com/josephcolantunoni" },
+        { platform: "TikTok", url: "https://www.tiktok.com/@josephcolantunoni" },
+        { platform: "Facebook", url: "https://www.facebook.com/joseph.colantuoni.5" }
+      ],
+       finisher: "Rockstar Cutter",
+      bio: "I'm that larger than Life character not even a cartoon ,the man ,the myth ,the legend still in the making yours truly Rockstar Joey T ",
+      heroBanner: "/images/hero/rockstar-joey-t-hero.jpg"
+    },
+
+    {
+      id: "10",
+      name: "Meat Missle",
+      slug: "meat-missle",
+      image: "/images/roster/meat-missle-update.png",
+      brand: "LTW",
+      hometown: "The Woods",
+      height: "5'5",
+      weight: "120 lbs",
+      championships: [
+        "LTW 24/7 Champion",
+        
+        
+      ],
+       // finisher: "Royal decollation, Melodies from Marie",
+      bio: "A demonic hillbilly with a penchant for chaos.",
+      heroBanner: "/images/hero/meat-missle-hero.jpg"
+    },
+
+    {
+      id: "11",
+      name: "Yankee TDM",
+      slug: "yankee-tdm",
+      image: "/images/roster/yankee-tdm-update.png",
+      brand: "LTW",
+      hometown: "Bayamon, Puerto Rico",
+      height: "5'10",
+      weight: "215 lbs",
+      championships: [
+        "LTW Heavyweight Champion",
+        "LTW Tag Team Champion",
+        "QR Winner Number One Contender For The LTW Internet Championship",
+        
+        
+      ],
+      finisher: "TDM Kick",
+      bio: "YANKEE TDM – “The Concrete Maverick” Born from the streets of Bayamón, Puerto Rico, Yankee TDM brings an unpredictable mix of raw power, toughness, and versatility every time he steps through the curtain. Known as “The Difference Maker,” Yankee combines a hard-hitting brawler mentality with a hybrid style that allows him to adapt to any opponent and any fight. With experience across multiple promotions, Yankee TDM has proven he can stand alone, fight alongside a partner, or bring chaos wherever he’s needed. Fueled by passion, pride, and the mentality that pressure creates greatness, The Concrete Maverick refuses to crack. “You ain’t gonna catch me slipping.” “ From the Island of Death” This isn’t just wrestling… this is The Difference Maker, This is the Concrete Maverick, THIS IS YANKEETDM",
+      heroBanner: "/images/hero/yankee-tdm-hero.jpg"
+    },
+
+    {
+      id: "12",
+      name: "\"The Problem\" Behemoth",
+      slug: "the-problem-behemoth",
+      image: "/images/roster/the-problem-behemoth-update-v3.png",
+      brand: "LTW",
+      hometown: "Brooklyn, NY",
+      height: "6'4",
+      weight: "348 lbs",
+      championships: [
+        "LTW Hightlight Champion",
+        
+        
+      ],
+
+      socials: [
+        { platform: "Instagram", url: "https://www.instagram.com/theproblem.behemoth" },
+        { platform: "Instagram", url: "https://www.instagram.com/BKProdigies" },
+        { platform: "TikTok", url: "https://www.tiktok.com/bigbehemoth123" },
+        { platform: "X", url: "https://twitter.com/@BKProdigies" }
+      ],
+      finisher: "Problem Drop (Leg Drop), Problem Solver (Spear), Problem Solved (TKO), Behemoth Bomb (Double Hand Sitdown Chokeslam)",
+      bio: "\"The Problem\" Behemoth is the personification of domination. A powerhouse from Brooklyn, NY, he combines brute strength, surprising athleticism, and an intimidating presence that makes him a threat to anyone standing across the ring. Whether it’s a singles match or tag team competition alongside his partner Ray Louis, The Problem brings relentless aggression, old-school intensity, and a no-nonsense attitude. Built for war and known as a locker room leader, he’s the kind of competitor who can change the outcome of a match with one move and leave a lasting impression on any crowd.",
+      heroBanner: "/images/hero/the-problem-behemoth-hero.jpg"
+    },
+
+      {
+      id: "13",
+      name: "Ray \"F'N\" Louis",
+      slug: "ray-louis",
+      image: "/images/roster/ray-louis-update.png",
+      brand: "LTW",
+      hometown: "Brooklyn, NY / Northeast Philadelphia, PA",
+      height: "5'7",
+      weight: "262 lbs",
+      championships: [
+        "LTW Hardcore Champion",
+        
+        
+      ],
+      finisher: "Flatbush Hangover, Brooklyn Headslam",
+      bio: "Ray Louis was born and raised in the heart of Brooklyn NY raised by a single mom everyone used to say you will never amount to anything so he took that to heart and kept proving people wrong about him.",
+      heroBanner: "/images/hero/ray-louis-hero.jpg"
+    },
+
+     {
+      id: "14",
+      name: "Lucian Rainrix",
+      slug: "lucian-rainrix",
+      image: "/images/roster/lucian-rainrix-update.png",
+      brand: "RBW",
+      hometown: "Carcosa",
+      height: "5'7",
+      weight: "262 lbs",
+      championships: [
+        "LTW Heavyweight Champion",
+        
+        
+      ],
+      finisher: "The Cure (Ripcord DDT), Human Eradication Project (Mist Spit), Mandible Claw",
+      bio: "A plague doctor that makes different toxins. In my real life. I have personally studied Alchemy and Botany for many years. Each color of the toxins has a different effects. After extensive training and learning Lucian has become immune to the toxins himself. However. All knowledge comes with a price. He has become insane and has a bit of an ego issue.",
+      heroBanner: "/images/hero/lucian-rainrix-hero-v2.jpg"
+    },
+
+
+
+
+    
 
 
 

@@ -25,11 +25,12 @@ export default function RosterCard({
         }
       `}
     >
-      <div className="relative aspect-[2/3]">
+      <div className="relative aspect-[4/5]">
         <Image
           src={wrestler.image}
           alt={wrestler.name}
           fill
+          sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
           className="
             object-cover
             transition
@@ -37,6 +38,12 @@ export default function RosterCard({
             group-hover:scale-110
           "
         />
+
+        {wrestler.alumni ? (
+          <span className="absolute left-3 top-3 z-10 rounded bg-black/85 px-2.5 py-1 text-[11px] font-black uppercase tracking-[0.16em] text-yellow-300">
+            Alumni
+          </span>
+        ) : null}
 
         <div
           className={`absolute inset-0 ${
@@ -47,7 +54,7 @@ export default function RosterCard({
         />
       </div>
 
-      <div className="p-4">
+      <div className="p-3">
         <h3 className="font-bold">
           {wrestler.name}
         </h3>

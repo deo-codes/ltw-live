@@ -3,17 +3,11 @@ import { roster } from "../../data/roster";
 import Image from "next/image";
 import Link from "next/link";
 import SiteShell from "@/components/layout/SiteShell";
+import type { SocialPlatform } from "@/types/wrestler";
 
 const DEFAULT_WRESTLER_HERO_BANNER = "/images/hero/wrestler-match-hero.jpg";
-const DEFAULT_SOCIAL_LINKS = [
-  { platform: "YouTube", url: "https://www.youtube.com" },
-  { platform: "Instagram", url: "https://www.instagram.com" },
-  { platform: "Facebook", url: "https://www.facebook.com" },
-  { platform: "X", url: "https://x.com" },
-  { platform: "TikTok", url: "https://www.tiktok.com" },
-] as const;
 
-function SocialIcon({ platform }: { platform: string }) {
+function SocialIcon({ platform }: { platform: SocialPlatform }) {
   const iconClass = "h-5 w-5";
 
   if (platform === "YouTube") {
@@ -40,7 +34,7 @@ function SocialIcon({ platform }: { platform: string }) {
     );
   }
 
-  if (platform === "X") {
+  if (platform === "X" || platform === "Twitter") {
     return (
       <svg viewBox="0 0 24 24" aria-hidden="true" className={iconClass}>
         <path fill="currentColor" d="M18.9 2H22l-6.8 7.8L23 22h-6.1l-4.8-6.2L6.7 22H3.6l7.3-8.3L1 2h6.3l4.3 5.7L18.9 2Zm-1.1 18h1.7L6.4 3.9H4.6L17.8 20Z" />
@@ -61,6 +55,22 @@ function SocialIcon({ platform }: { platform: string }) {
       <circle cx="12" cy="12" r="10" fill="currentColor" />
     </svg>
   );
+}
+
+function getSocialHandle(url: string) {
+  try {
+    const parsedUrl = new URL(url);
+    const pathSegments = parsedUrl.pathname.split("/").filter(Boolean);
+    const lastSegment = pathSegments[pathSegments.length - 1] ?? parsedUrl.hostname;
+
+    if (!lastSegment) {
+      return parsedUrl.hostname;
+    }
+
+    return lastSegment.startsWith("@") ? lastSegment : `@${lastSegment}`;
+  } catch {
+    return url;
+  }
 }
 
 export default async function WrestlerPage({
@@ -107,11 +117,12 @@ export default async function WrestlerPage({
       <section className="container py-20">
         <div className="grid lg:grid-cols-2 gap-10">
 
-          <div className="relative h-[700px]">
+          <div className="relative mx-auto h-[420px] w-full max-w-[540px] sm:h-[500px] lg:h-[560px]">
             <Image
               src={wrestler.image}
               alt={wrestler.name}
               fill
+              sizes="(max-width: 1024px) 100vw, 540px"
               className="rounded-xl bg-zinc-950 object-contain object-top"
             />
           </div>
@@ -181,29 +192,19 @@ export default async function WrestlerPage({
                         href={social.url}
                         target="_blank"
                         rel="noreferrer"
-                        className="inline-block rounded-full border border-zinc-600 px-4 py-2 text-sm font-semibold uppercase tracking-wide transition hover:border-white hover:text-white"
+                        aria-label={`${social.platform} ${getSocialHandle(social.url)}`}
+                        className="inline-flex items-center gap-3 rounded-full border border-zinc-700 bg-zinc-950 px-4 py-2 text-sm font-semibold text-zinc-200 transition hover:border-white hover:text-white"
                       >
-                        {social.platform}
+                        <SocialIcon platform={social.platform} />
+                        <span>{getSocialHandle(social.url)}</span>
                       </a>
                     </li>
                   ))}
                 </ul>
               ) : (
-                <ul className="mt-4 flex flex-wrap gap-3">
-                  {DEFAULT_SOCIAL_LINKS.map((social) => (
-                    <li key={social.platform}>
-                      <a
-                        href={social.url}
-                        target="_blank"
-                        rel="noreferrer"
-                        aria-label={social.platform}
-                        className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-zinc-600 text-zinc-300 transition hover:border-white hover:text-white"
-                      >
-                        <SocialIcon platform={social.platform} />
-                      </a>
-                    </li>
-                  ))}
-                </ul>
+                <p className="mt-4 text-zinc-400">
+                  Social links coming soon.
+                </p>
               )}
             </div>
           </div>
