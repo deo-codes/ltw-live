@@ -312,6 +312,11 @@ export const roster: Wrestler[] = [
         
         
       ],
+
+      socials: [
+        { platform: "Instagram", url: "https://www.instagram.com/ltwmeatmissle666" },
+       
+      ],
        // finisher: "Royal decollation, Melodies from Marie",
       bio: "A demonic hillbilly with a penchant for chaos.",
       heroBanner: "/images/hero/meat-missle-hero.jpg"
@@ -332,6 +337,14 @@ export const roster: Wrestler[] = [
         "QR Winner Number One Contender For The LTW Internet Championship",
         
         
+      ],
+
+      socials: [
+        { platform: "Instagram", url: "https://www.instagram.com/yankee_tdm" },
+        { platform: "TikTok", url: "http://www.tiktok.com/@yankeetdm" },
+        { platform: "X", url: "https://twitter.com/Yankee_TDM" },
+        { platform: "Facebook", url: "https://www.facebook.com/Yankeethedifferencemaker" },
+        { platform: "YouTube", url: "https://www.youtube.com/@yankeetdm" }
       ],
       finisher: "TDM Kick",
       bio: "YANKEE TDM – “The Concrete Maverick” Born from the streets of Bayamón, Puerto Rico, Yankee TDM brings an unpredictable mix of raw power, toughness, and versatility every time he steps through the curtain. Known as “The Difference Maker,” Yankee combines a hard-hitting brawler mentality with a hybrid style that allows him to adapt to any opponent and any fight. With experience across multiple promotions, Yankee TDM has proven he can stand alone, fight alongside a partner, or bring chaos wherever he’s needed. Fueled by passion, pride, and the mentality that pressure creates greatness, The Concrete Maverick refuses to crack. “You ain’t gonna catch me slipping.” “ From the Island of Death” This isn’t just wrestling… this is The Difference Maker, This is the Concrete Maverick, THIS IS YANKEETDM",
@@ -357,7 +370,7 @@ export const roster: Wrestler[] = [
         { platform: "Instagram", url: "https://www.instagram.com/theproblem.behemoth" },
         { platform: "Instagram", url: "https://www.instagram.com/BKProdigies" },
         { platform: "TikTok", url: "https://www.tiktok.com/bigbehemoth123" },
-        { platform: "X", url: "https://twitter.com/@BKProdigies" }
+        { platform: "X", url: "https://twitter.com/BKProdigies" }
       ],
       finisher: "Problem Drop (Leg Drop), Problem Solver (Spear), Problem Solved (TKO), Behemoth Bomb (Double Hand Sitdown Chokeslam)",
       bio: "\"The Problem\" Behemoth is the personification of domination. A powerhouse from Brooklyn, NY, he combines brute strength, surprising athleticism, and an intimidating presence that makes him a threat to anyone standing across the ring. Whether it’s a singles match or tag team competition alongside his partner Ray Louis, The Problem brings relentless aggression, old-school intensity, and a no-nonsense attitude. Built for war and known as a locker room leader, he’s the kind of competitor who can change the outcome of a match with one move and leave a lasting impression on any crowd.",
@@ -377,6 +390,11 @@ export const roster: Wrestler[] = [
         "LTW Hardcore Champion",
         
         
+      ],
+
+        socials: [
+         { platform: "Instagram", url: "https://www.instagram.com/BKProdigies" },
+         { platform: "X", url: "https://twitter.com/BKProdigies" }
       ],
       finisher: "Flatbush Hangover, Brooklyn Headslam",
       bio: "Ray Louis was born and raised in the heart of Brooklyn NY raised by a single mom everyone used to say you will never amount to anything so he took that to heart and kept proving people wrong about him.",
@@ -401,6 +419,34 @@ export const roster: Wrestler[] = [
       bio: "A plague doctor that makes different toxins. In my real life. I have personally studied Alchemy and Botany for many years. Each color of the toxins has a different effects. After extensive training and learning Lucian has become immune to the toxins himself. However. All knowledge comes with a price. He has become insane and has a bit of an ego issue.",
       heroBanner: "/images/hero/lucian-rainrix-hero-v2.jpg"
     },
+
+   {
+      id: "15",
+      name: "Charlie \"The Axe\" Bonifer",
+      slug: "charlie-the-axe-bonifer",
+      image: "/images/roster/charlie-bonifer-update.png",
+      brand: "LTW",
+      hometown: "No Man's Land",
+      height: "6'1\"",
+      weight: "29.4 gallons of diesel",
+      championships: [
+        "LTW Heavyweight Champion",
+        "RBW Heavyweight Champion",
+        "LTW Tag Team Champion",
+        "LTW Tag Team Champion",
+        "RBW Heavyweight Champion",
+        "LTW Hardcore Champion",
+        "LTW Underground Champion"
+        
+      ],
+      socials: [
+         { platform: "Instagram", url: "https://www.instagram.com/bonifer_has_1000corpses" },
+         
+      ],
+      finisher: "Saito Suplex, Axe Bomber Lariat, Axe Crusher",
+      bio: "Charlie \"The Axe\" Bonifer is a a paranoid mad man who believes he is in the end times and fights his enemies as if they weren’t human. Once a medicated professional wrestler has stopped taking his meds and has become a warlord in his mind.",
+      heroBanner: "/images/hero/charlie-bonifer-hero.jpg"
+   }
 
 
 
