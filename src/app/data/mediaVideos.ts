@@ -144,5 +144,29 @@ export const mediaVideos: MediaVideo[] = [
     youtubeId: "L52jQ_meLKc",
     thumbnail: "/images/videos/2019-17.jpg",
     description: "Mickey O'Malley begins his interview segment with The Rejeckts faction.",
+  },
+  {
+    id: "18",
+    title: "The Sit Down",
+    year: "2019",
+    youtubeId: "btECXOnnidI",
+    thumbnail: "/images/videos/2019-18.jpg",
+    description: "Mickey O'Malley has a sit down with the LTW roster.",
+  },
+  {
+    id: "19",
+    title: "Peace offering",
+    year: "2019",
+    youtubeId: "7TYAVjape2Y",
+    thumbnail: "/images/videos/2019-19.jpg",
+    description: "Mickey O'Malley offers a peace offering to the The Rejeckts.",
+  },
+  {
+    id: "20",
+    title: "Meet the Royal Familia",
+    year: "2019",
+    youtubeId: "ymJhXDMEiIs",
+    thumbnail: "/images/videos/2019-20.jpg",
+    description: "The Royal Familia is introduced to the LTW audience and Mickey O'Malley interacts with them.",
   }
 ];
