@@ -19,7 +19,7 @@ export default function MediaArchive() {
       : mediaVideos.filter((video) => video.year === selectedYear);
 
   return (
-    <section className="mx-auto max-w-7xl px-6 py-14">
+    <section className="mx-auto max-w-7xl px-6 pb-14 pt-28 md:pt-32">
       <div className="mb-10 flex flex-col gap-5 md:flex-row md:items-end md:justify-between">
         <div>
           <h2 className="text-2xl font-black uppercase text-white md:text-3xl">
