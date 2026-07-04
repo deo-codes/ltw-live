@@ -488,7 +488,24 @@ export const mediaVideos: MediaVideo[] = [
     youtubeId: "MFfEB2iczkk",
     thumbnail: "/images/videos/2020-40.jpg",
     description: "Frankie Marinara approaches an ultimatum, setting the stage for a decisive confrontation on The Dark Show.",
-  }
+  },
+  {
+    id: "61",
+    title: "The Dark Show - Episode 11: Hog Wild",
+    year: "2020",
+    youtubeId: "2hnFXZTGgCg",
+    thumbnail: "/images/videos/2020-41.jpg",
+    description: "H.O.G. takes center stage on The Dark Show as new challenges and rivalries emerge.",
+  },
+  {
+    id: "62",
+    title: "LTW vs DWA",
+    year: "2020",
+    youtubeId: "gL7SB4K5fQQ",
+    thumbnail: "/images/videos/2020-42.jpg",
+    description: "A special cross-promotional event featuring matches between LTW and DWA talent.",
+  },
+  
 
 
   

@@ -446,6 +446,79 @@ export const roster: Wrestler[] = [
       finisher: "Saito Suplex, Axe Bomber Lariat, Axe Crusher",
       bio: "Charlie \"The Axe\" Bonifer is a a paranoid mad man who believes he is in the end times and fights his enemies as if they weren’t human. Once a medicated professional wrestler has stopped taking his meds and has become a warlord in his mind.",
       heroBanner: "/images/hero/charlie-bonifer-hero.jpg"
+   },
+   {
+    id: "16",
+    name: "Ace Marxman",
+    slug: "ace-marxman",
+    image: "/images/roster/ace-marxman-update.png",
+    brand: "LTW",
+    hometown: "Forked River, NJ",
+    height: "5'7\"",
+    weight: "198 lbs",
+    championships: [
+      "LTW & RBW Universal Champion",
+      "LTW Wildcard Champion",
+      "LTW Tag Team Champion",
+      "Key To The Kingdom Champion",
+      "LTW 24/7 Champion",
+      "LTW Light Heavyweight Champion",
+      "LTW Heavyweight Champion"
+
+    ],
+    socials: [
+      { platform: "Instagram", url: "https://www.instagram.com/Acemarx_LTW" },
+      { platform: "Twitter", url: "https://twitter.com/acemarxman" }
+    ],
+    finisher: "",
+    bio: "Ace Marxman, Man if many factions, faces, abilities and many traits, Ace is ready for anything thrown at him. Ace is military trained, and can switch his move set at any given time. He knows one thing, eliminate the target at any cost. To him everyone is just a target",
+    heroBanner: "/images/hero/ace-marxman-hero-v2.jpg"
+   },
+   {
+    id: "17",
+    name: "Gunnar Thorson",
+    slug: "gunnar-thorson",
+    image: "/images/roster/gunnar-update.png",
+    brand: "LTW",
+    hometown: "Galway, Ireland ",
+    height: "5'7\"",
+    weight: "198 lbs",
+    championships: [
+      "LTW & RBW Universal Champion",
+      "LTW Wildcard Champion",
+      "LTW Tag Team Champion",
+      "Key To The Kingdom Champion",
+      "LTW 24/7 Champion",
+      "LTW Light Heavyweight Champion",
+      "LTW Heavyweight Champion"
+
+    ],
+    socials: [
+      { platform: "Instagram", url: "https://www.instagram.com/Acemarx_LTW" },
+      { platform: "Twitter", url: "https://twitter.com/acemarxman" }
+    ],
+    finisher: "",
+    bio: " Ace Marxman though it took a while to discover, Deep down he is Gűnnar, and Gűnnar is the decendent of the Norse God Of Thunder Thor. He know nothing other then the battle to win or die trying. Leading the Faction the final chapter to victory, or valhalla.",
+    heroBanner: "/images/hero/gunnar-hero.jpg"
+   },
+   {
+    id: "18",
+    name: "Eris Spiral",
+    slug: "eris-spiral",
+    image: "/images/roster/eris-spiral-update.png",
+    brand: "LTW",
+    hometown: "Nevermore",
+    height: "",
+    weight: "",
+    championships: [
+      "LTW Women's Champion",
+      "LTW Highlight Champion"
+    ],
+    socials: [
+    ],
+    finisher: "Submission chaos flip",
+    bio: "A person who is not afraid to get a bit strange some people would call her a bit on the crazy side the way she carry’s herself in the ring some people would be afraid to step foot against her don’t be fooled by her pretty smile she’ll beat you down and leave you looking up at the lights.",
+    heroBanner: "/images/hero/eris-spiral-hero.jpg"
    }
 
 
