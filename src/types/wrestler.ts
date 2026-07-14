@@ -19,7 +19,7 @@ export interface Wrestler {
   heroBanner?: string;
   alumni?: boolean;
 
-  brand: "LTW" | "RBW";
+  brand: "LTW" | "RBW" | "Alumni";
 
   hometown: string;
   height: string;

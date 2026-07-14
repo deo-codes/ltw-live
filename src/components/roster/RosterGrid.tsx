@@ -20,8 +20,8 @@ export default function RosterGrid() {
       const matchesFilter =
         activeFilter === "all"
           ? true
-          : activeFilter === "ALUMNI"
-            ? Boolean(wrestler.alumni)
+          : activeFilter === "Alumni"
+            ? wrestler.brand === "Alumni" || Boolean(wrestler.alumni)
             : wrestler.brand === activeFilter;
 
       return matchesName && matchesFilter;

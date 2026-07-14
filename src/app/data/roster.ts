@@ -470,7 +470,7 @@ export const roster: Wrestler[] = [
       { platform: "Instagram", url: "https://www.instagram.com/Acemarx_LTW" },
       { platform: "Twitter", url: "https://twitter.com/acemarxman" }
     ],
-    finisher: "",
+    finisher: "Beauty of Annihilation",
     bio: "Ace Marxman, Man if many factions, faces, abilities and many traits, Ace is ready for anything thrown at him. Ace is military trained, and can switch his move set at any given time. He knows one thing, eliminate the target at any cost. To him everyone is just a target",
     heroBanner: "/images/hero/ace-marxman-hero-v2.jpg"
    },
@@ -519,6 +519,51 @@ export const roster: Wrestler[] = [
     finisher: "Submission chaos flip",
     bio: "A person who is not afraid to get a bit strange some people would call her a bit on the crazy side the way she carry’s herself in the ring some people would be afraid to step foot against her don’t be fooled by her pretty smile she’ll beat you down and leave you looking up at the lights.",
     heroBanner: "/images/hero/eris-spiral-hero.jpg"
+   },
+   {
+    id: "24",
+    name: "Mikey Anarchy",
+    slug: "mikey-anarchy",
+    image: "/images/roster/mikey-anarchy-update.png",
+    brand: "Alumni",
+    hometown: "Philadelphia, PA",
+    height: "5'7\"",
+    weight: "300 lbs",
+    championships: [
+      "LTW Underground Champion",
+      "LTW Wild Card Champion",
+      "LTW Tag Team Champion"
+    ],
+    socials: [
+      { platform: "Instagram", url: "https://www.instagram.com/mikeyanarchy" },
+      { platform: "Twitter", url: "https://twitter.com/_Anarcny666_" }
+    ],
+
+    matches: [
+      {
+        title: "Mikey Anarchy LTW Debut Match",
+        thumbnail: "/images/videos/video5.jpg",
+        url: "https://www.youtube.com/watch?v=qXzjDiZJCOU",
+        event: "LTW Goes Extreme"
+      },
+      {
+        title: "Mikey Anarchy vs. Joey Angelo",
+        thumbnail: "/images/videos/video6.jpg",
+        url: "https://www.youtube.com/watch?v=ZDvUDWC7tPQ",
+        event: "LTW Goes Underground"
+      },
+      {
+        title: "Mikey Anarchy vs. Charlie \"The Axe\" Bonifer",
+        thumbnail: "/images/videos/video7.jpg",
+        url: "https://www.youtube.com/watch?v=u-pXN5dJ320",
+        event: "Danimania 2025"
+      }
+      
+    
+    ],
+    finisher: "Beauty of Annihilation",
+    bio: "Born on the streets of KILLADELPHIA, Mikey Anarchy sets his sights on two things; Carnage and blood. Through any means necessary, with help or solo, Mikey Anarchy carved his name out in LTW through various weapons, with his own teeth or the violence that only he can dish out to anyone who stands in his path. Whether it was in the Underground or a live event, if you were in the ring with Mikey, you never walked out the same.",
+    heroBanner: "/images/hero/mikey-anarchy-hero-v2.jpg"
    }
 
 

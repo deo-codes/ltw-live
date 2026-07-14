@@ -1,4 +1,4 @@
-export type RosterFilterValue = "all" | "LTW" | "RBW" | "ALUMNI";
+export type RosterFilterValue = "all" | "LTW" | "RBW" | "Alumni";
 
 type FilterOption = {
 	label: string;
@@ -9,7 +9,7 @@ const FILTER_OPTIONS: FilterOption[] = [
 	{ label: "All", value: "all" },
 	{ label: "LTW", value: "LTW" },
 	{ label: "RBW", value: "RBW" },
-	{ label: "Alumni", value: "ALUMNI" },
+	{ label: "Alumni", value: "Alumni" },
 ];
 
 type RosterFilterProps = {
