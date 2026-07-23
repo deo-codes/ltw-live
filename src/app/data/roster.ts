@@ -506,7 +506,7 @@ export const roster: Wrestler[] = [
     name: "Eris Spiral",
     slug: "eris-spiral",
     image: "/images/roster/eris-spiral-update.png",
-    brand: "LTW",
+    brand: "Alumni",
     hometown: "Nevermore",
     height: "",
     weight: "",
