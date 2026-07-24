@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import SiteShell from "@/components/layout/SiteShell";
 import StaticHero from "@/components/sections/StaticHero";
 import { metadata } from "../layout";
 
@@ -46,7 +47,7 @@ export default function ChampionshipsPage() {
   ];
 
   return (
-    <main>
+    <SiteShell>
       <StaticHero
         backgroundImage="/images/hero/championship-hero.png"
         title="Championships"
@@ -134,6 +135,6 @@ export default function ChampionshipsPage() {
           </div>
         </div>
       </section>
-    </main>
+    </SiteShell>
   );
 }
