@@ -501,11 +501,54 @@ export const roster: Wrestler[] = [
     bio: " Ace Marxman though it took a while to discover, Deep down he is Gűnnar, and Gűnnar is the decendent of the Norse God Of Thunder Thor. He know nothing other then the battle to win or die trying. Leading the Faction the final chapter to victory, or valhalla.",
     heroBanner: "/images/hero/gunnar-hero.jpg"
    },
-   {
+      {
     id: "18",
+    name: "Angel Morningstar",
+    slug: "angel-morningstar",
+    image: "/images/roster/angel-morningstar-update.png",
+    brand: "LTW",
+    hometown: "Philadelphia, PA/10th Circle of Hell",
+    height: "5'7\"",
+    weight: "200 lbs",
+    championships: [
+      "LTW Intergender Tag Team Champion",
+      "LTW Light Heavyweight Champion",
+
+    ],
+    socials: [
+      { platform: "Instagram", url: "https://www.instagram.com/angelus_morningstar" },
+      { platform: "X", url: "https://twitter.com/AngelusLTW" }
+    ],
+    finisher: "",
+    bio: "From the 10th Circle of Hell, he is the original devil. Residing in Philadelphia, PA, his goal is beyond anyones understanding. He lead the Rejeckts/ApoKalypse and ruled over LTW and now alongside Greatness he wants to show why he's One Man with Two Fates.",
+    heroBanner: "/images/hero/angel-morningstar-hero.jpg"
+   },
+   {
+    id: "21",
+    name: "George Murphy",
+    slug: "george-murphy",
+    image: "/images/roster/george-murphy-update.png",
+    brand: "LTW",
+    hometown: "Newark, NJ",
+    height: "5'8\"",
+    weight: "265 lbs",
+    championships: [
+      "LTW Hardcore Champion",
+      "LTW 24/7 Champion",
+      "RBW European Champion",
+      "LTW & RBW Universal Champion"
+    ],
+    socials: [
+    ],
+    finisher: "",
+    bio: "George Murphy is a former security guard turned professional wrestler, known for his toughness and resilience in the ring with no nonsense attitude and having jerk-like determination to succeed.",
+    heroBanner: "/images/hero/george-murphy-hero.jpg"
+   },
+   {
+    id: "19",
     name: "Eris Spiral",
     slug: "eris-spiral",
-    image: "/images/roster/eris-spiral-update.png",
+    image: "/images/roster/eris-spiral-updatev2.png",
     brand: "Alumni",
     hometown: "Nevermore",
     height: "",
@@ -520,8 +563,9 @@ export const roster: Wrestler[] = [
     bio: "A person who is not afraid to get a bit strange some people would call her a bit on the crazy side the way she carry’s herself in the ring some people would be afraid to step foot against her don’t be fooled by her pretty smile she’ll beat you down and leave you looking up at the lights.",
     heroBanner: "/images/hero/eris-spiral-hero.jpg"
    },
+
    {
-    id: "24",
+    id: "20",
     name: "Mikey Anarchy",
     slug: "mikey-anarchy",
     image: "/images/roster/mikey-anarchy-update.png",

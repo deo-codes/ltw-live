@@ -26,7 +26,7 @@ export default function FeaturedShow() {
           </span>
 
           <h2 className="mt-3 text-4xl font-black uppercase text-white md:text-6xl">
-           Locked Target Wrestling presents RBW's Coronation 2026
+           Locked Target Wrestling presents Danimania: Pure Greatness
           </h2>
         </div>
 
@@ -48,8 +48,8 @@ export default function FeaturedShow() {
           {/* Poster */}
           <div className="relative overflow-hidden rounded-2xl">
             <Image
-              src="/images/events/rbw-coronation-2026.jpg"
-              alt="Locked Target Wrestling presents RBW's Coronation 2026"
+              src="/images/events/danimania-pure-greatness.jpg"
+              alt="Locked Target Wrestling presents Danimania Pure Greatness"
               width={900}
               height={1200}
               className="
@@ -74,8 +74,8 @@ export default function FeaturedShow() {
 
             <div className="mt-6">
               <Image
-                src="/images/events/coronation-logo.png"
-                alt="RBW Coronation logo"
+                src="/images/events/2026-danimania.png"
+                alt="Danimania 2026 logo"
                 width={900}
                 height={280}
                 className="h-auto w-full max-w-xl object-contain"
@@ -84,14 +84,14 @@ export default function FeaturedShow() {
             </div>
 
             <div className="mt-6 space-y-2 text-gray-300">
-              <p>📅 Sunday, July 26, 2026</p>
+              <p>📅 Sunday, August 30, 2026</p>
               <p>📍 The Silverton Volunteer Fire Department</p>
 			  <p>15 Kettle Creek Road, Toms River, NJ 08753</p>
-              <p>Doors open at 1 PM - Show starts at 2 PM</p>
+              <p>Doors open at 3 PM - Show starts at 4 PM</p>
             </div>
 
             <p className="mt-8 max-w-xl text-lg text-gray-400">
-              The Road to Danimania 2026 continues with RBW's Coronation, a high-stakes event where the future of RBW's top title will be decided. Witness the coronation of a new champion as top contenders clash in thrilling matches. Don't miss this unforgettable night of action, drama, and crowning glory!
+             LTW's 8th summer annual event, Danimania: Pure Greatness, promises an action-packed night of professional wrestling you won't want to miss! Featuring top talent from LTW, this event will showcase thrilling matches, intense rivalries, and unforgettable moments that will leave fans on the edge of their seats. Get your tickets now and be part of the excitement!
             </p>
 
             <div className="mt-10 flex flex-wrap gap-4">
