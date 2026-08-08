@@ -7,6 +7,12 @@ import type { SocialPlatform } from "@/types/wrestler";
 
 const DEFAULT_WRESTLER_HERO_BANNER = "/images/hero/wrestler-match-hero.jpg";
 
+export const generateStaticParams = () => {
+  return roster.map((wrestler) => ({
+    slug: wrestler.slug,
+  }));
+};
+
 function SocialIcon({ platform }: { platform: SocialPlatform }) {
   const iconClass = "h-5 w-5";
 
