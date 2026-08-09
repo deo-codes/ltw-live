@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
 import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 
@@ -16,14 +15,6 @@ type HeroSlide = {
   highlight: string;
   subtitle: string;
   description: string;
-  primaryButton: {
-    text: string;
-    href: string;
-  };
-  secondaryButton?: {
-    text: string;
-    href: string;
-  };
 };
 
 const MOBILE_BREAKPOINT = 768;
@@ -31,21 +22,16 @@ const MOBILE_BREAKPOINT = 768;
 const slides: HeroSlide[] = [
   {
     id: "home-main",
-    image: "/images/hero/ltw-arena.jpg",
+    image: "/images/hero/LTWBanner2024.jpg",
+    mobileImage: "/images/hero/LTWBanner2024.jpg",
+    imagePosition: "center center",
+    mobileImagePosition: "center center",
     logo: "/logos/ltw-logo.png",
     title: "The Next",
     highlight: "Generation",
     subtitle: "Of Wrestling",
     description:
       "Experience the future of wrestling with LTW's high-octane action, thrilling matches, and unforgettable moments.",
-    primaryButton: {
-      text: "▶ Watch Now",
-      href: "/watch",
-    },
-    secondaryButton: {
-      text: "📅 Upcoming Events",
-      href: "/events",
-    },
   },
 
   {
@@ -58,10 +44,6 @@ const slides: HeroSlide[] = [
     subtitle: "Of LTW & RBW",
     description:
       "Heroes. Villains. Champions. Legends.",
-    primaryButton: {
-      text: "👊 View Roster",
-      href: "/roster",
-    },
   },
 
   {
@@ -75,14 +57,6 @@ const slides: HeroSlide[] = [
     subtitle: "Live In-Ring",
     description:
       "From technical showcases to all-out brawls, LTW live events deliver nonstop action from bell to bell.",
-    primaryButton: {
-      text: "🎟 Get Tickets",
-      href: "/shows",
-    },
-    secondaryButton: {
-      text: "📺 Watch Highlights",
-      href: "/watch",
-    },
   },
 ];
 
@@ -140,11 +114,11 @@ export default function HeroCarosel() {
       </AnimatePresence>
 
       {/* Dark Overlay */}
-      <div className="absolute inset-0 bg-black/45" />
+      <div className="absolute inset-0 bg-black/30" />
       <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent" />
 
       {/* Gold Accent Glow */}
-      <div className="absolute inset-0 bg-gradient-to-r from-black via-black/50 to-transparent" />
+      <div className="absolute inset-0 bg-gradient-to-r from-black via-black/35 to-transparent" />
 
       {/* Content */}
       <div className="relative z-10 flex min-h-screen items-center">
@@ -216,54 +190,6 @@ export default function HeroCarosel() {
                 {current.description}
             </motion.p>
 
-            {/* Buttons */}
-            <motion.div
-              key={`buttons-${current.id}`}
-              initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.6}}
-              className="mt-10 flex flex-wrap gap-4"
-            >
-              <Link
-                href={current.primaryButton.href}
-                className="
-                  rounded-lg
-                  bg-yellow-400
-                  px-8
-                  py-4
-                  font-bold
-                  text-black
-                  transition-all
-                  duration-300
-                  hover:scale-105
-                  hover:bg-yellow-300
-                "
-              >
-                {current.primaryButton.text}
-              </Link>
-              {current.secondaryButton && (
-                <Link
-                  href={current.secondaryButton.href}
-                  className="
-                    rounded-lg
-                    border
-                  border-yellow-400
-                  bg-black/40
-                  px-8
-                  py-4
-                  font-bold
-                  text-white
-                  backdrop-blur-sm
-                  transition-all
-                  duration-300
-                  hover:bg-yellow-400
-                  hover:text-black
-                "
-              >
-                {current.secondaryButton.text}
-              </Link>
-              )}
-            </motion.div>
             </motion.div>
           </AnimatePresence>
         </div>

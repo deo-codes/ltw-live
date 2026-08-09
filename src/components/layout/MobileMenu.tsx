@@ -9,11 +9,10 @@ interface MobileMenuProps {
 
 const links = [
   { label: "Home", href: "/" },
-  { label: "Shows", href: "/shows" },
   { label: "Roster", href: "/roster" },
   { label: "Championships", href: "/championships" },
   { label: "Media", href: "/media" },
-  { label: "History", href: "/history" },
+  { label: "News", href: "/news" },
   { label: "Store", href: "/store" },
 ];
 

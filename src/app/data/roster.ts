@@ -524,6 +524,50 @@ export const roster: Wrestler[] = [
     heroBanner: "/images/hero/angel-morningstar-hero.jpg"
    },
    {
+    id: "19",
+    name: "Taylor One Shot",
+    slug: "taylor-one-shot",
+    image: "/images/roster/taylor-one-shot-update.png",
+    brand: "LTW",
+    hometown: "Troy, NY",
+    height: "5'8\"",
+    weight: "160 lbs",
+    championships: [
+      "LTW Women's Champion",
+      "LTW Highlight Champion"
+    ],
+    socials: [
+      { platform: "Facebook", url: "https://www.facebook.com/taylor.oneshot.2025" },
+      { platform: "X", url: "https://twitter.com/TaylorOneShot" }
+    ],
+    finisher: "",
+    bio: "From Troy, NY, TIW Women's Champion for 1 year after defeating Mother Endless, and several title defenses at both LTW and TIW in North Adams, Massachusetts. Dubbed as the hitwomen for hire and the ultimate weapon in professional wrestling, Taylor One Shot is a force to be reckoned with in the ring.",
+    heroBanner: "/images/hero/taylor-one-shot-hero.jpg"
+   },
+   {
+    id: "20",
+    name: "Clarke Williams",
+    slug: "clarke-williams",
+    image: "/images/roster/clarke-williams-update.png",
+    brand: "LTW",
+    hometown: "Kingston, NY",
+    height: "5'11\"",
+    weight: "235 lbs",
+    championships: [
+      "LTW Heavyweight Champion",
+      "LTW Tag Team Champion",
+      "LTW Internet Champion",
+      "LTW Wild Card Champion"
+    ],
+    socials: [
+      { platform: "Instagram", url: "https://www.instagram.com/moneyfightclarke" },
+      { platform: "Twitter", url: "https://twitter.com/bigmatchclarke" }
+    ],
+    finisher: "",
+    bio: "Too legit....smooth as it gets. If you dont, take a chance swallow the regret. Say my name ....Clarke Williams. That's right casual. The Money Fight. Hailing from the blind side of upstate New York ,the baddest set of knuckles to throw em down since Mike Tyson himself. Welcome to the Boss fight !",
+    heroBanner: "/images/hero/clarke-williams-hero.jpg"
+   },
+   {
     id: "21",
     name: "George Murphy",
     slug: "george-murphy",
@@ -544,8 +588,71 @@ export const roster: Wrestler[] = [
     bio: "George Murphy is a former security guard turned professional wrestler, known for his toughness and resilience in the ring with no nonsense attitude and having jerk-like determination to succeed.",
     heroBanner: "/images/hero/george-murphy-hero.jpg"
    },
+   
    {
-    id: "19",
+    id: "22",
+    name: "James Hull",
+    slug: "james-hull",
+    image: "/images/roster/james-hull-update.png",
+    brand: "LTW",
+    hometown: "Elkton, MD",
+    height: "6'0\"",
+    weight: "375 lbs",
+    championships: [
+      "LTW Internet Champion",
+      "LTW Tag Team Champion"
+
+    ],
+    socials: [
+      { platform: "Instagram", url: "https://www.instagram.com/TowerShield_" },
+      { platform: "X", url: "https://twitter.com/TowerShield_" },
+      { platform: "TikTok", url: "https://www.tiktok.com/@TowerShield_"},
+      
+    ],
+    finisher: "",
+    bio: "When it comes to  the man known as \"The Un-Commentator\" or \"The Devil's Fixer\" no issue is to big or small, no sin to great or minor, if it is to be done he'll get it done, all the while wondering what more he can be. But underneath all the slick words and posturing an ancient curse threatens to pull him down into darkness, to unleash a \"Weapon\" whose only desire is violence. A man wages internal war with his inner demons, while serving up slick words and hard hitting results.",
+    heroBanner: "/images/hero/james-hull-hero.jpg"
+   },
+   {
+    id: "23",
+    name: "Justice DeVille",
+    slug: "justice-deville",
+    image: "/images/roster/justice-deville-update.png",
+    brand: "LTW",
+    hometown: "Jersey Shore, NJ",
+    height: "5'10\"",
+    weight: "170 lbs",
+    championships: [
+      "LTW 24/7 Champion",
+      "LTW Karaoke Champion",
+      "LTW Lancing Champion"
+
+
+    ],
+    socials: [],
+    finisher: "DDT/ STFU modified/ Guillotine DDT",
+    bio: "Justice DeVille is a trickster opportunist that takes advantage of chaos to move himself up the company ladder, with no regard to recognized championships or management titles. Basically, a chameleon. He'll blend in or comply where needed, but it's to serve his own agenda... which is continued chaos.",
+    heroBanner: "/images/hero/justice-deville-hero.jpg"
+   },
+   {
+    id: "24",
+    name: "Paul Willis",
+    slug: "paul-willis",
+    image: "/images/roster/paul-willis-update.png",
+    brand: "RBW",
+    hometown: "Windsor, London, UK",
+    height: "6'8\"",
+    weight: "360 lbs",
+    championships: [
+    ],
+    socials: [
+    ],
+    
+    bio: "RBW and LTW Owner and the hacker he hiredd to get ownership of both companies. True to the \"Kingpin\" persona, Paul Willis is portryed as a  mysterious, manipulative power-broker who operates behind the scenes. He functions as a puppet master rather than a traditional, straightforward wrestler.",
+    heroBanner: "/images/hero/paul-willis-hero.jpg"
+   },
+   {
+    id: "27",
     name: "Eris Spiral",
     slug: "eris-spiral",
     image: "/images/roster/eris-spiral-updatev2.png",
@@ -565,7 +672,7 @@ export const roster: Wrestler[] = [
    },
 
    {
-    id: "20",
+    id: "28",
     name: "Mikey Anarchy",
     slug: "mikey-anarchy",
     image: "/images/roster/mikey-anarchy-update.png",
@@ -608,6 +715,24 @@ export const roster: Wrestler[] = [
     finisher: "Beauty of Annihilation",
     bio: "Born on the streets of KILLADELPHIA, Mikey Anarchy sets his sights on two things; Carnage and blood. Through any means necessary, with help or solo, Mikey Anarchy carved his name out in LTW through various weapons, with his own teeth or the violence that only he can dish out to anyone who stands in his path. Whether it was in the Underground or a live event, if you were in the ring with Mikey, you never walked out the same.",
     heroBanner: "/images/hero/mikey-anarchy-hero-v2.jpg"
+   },
+   {
+    id: "29",
+    name: "Daniel Sorrows",
+    slug: "daniel-sorrows",
+    image: "/images/roster/daniel-sorrows-update.png",
+    brand: "Alumni",
+    hometown: "The Depth of Yharnam",
+    height: "6'0\"",
+    weight: "235 lbs",
+    championships: [
+      "RBW European Champion"
+    ],
+    socials: [
+    ],
+    finisher: "",
+    bio: "Daniel Sorrows is widely known as simply being called the hunter. He has no interest in your politics, no interest in your groups or friendships, his soul purpose is to make his opponents feel like the prey that they are. Because sorrows is the hunter, and everyone else is prey.",
+    heroBanner: "/images/hero/daniel-sorrows-hero-v2.jpg"
    }
 
 

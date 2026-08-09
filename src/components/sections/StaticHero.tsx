@@ -3,12 +3,14 @@ import Image from "next/image";
 
 interface StaticHeroProps {
   backgroundImage: string;
+  backgroundPosition?: string;
   title: string;
   subtitle: string;
 }
 
 export default function StaticHero({
   backgroundImage,
+  backgroundPosition = "center top",
   title,
   subtitle,
 }: StaticHeroProps) {
@@ -20,6 +22,7 @@ export default function StaticHero({
         alt={title}
         fill
         className="object-cover object-top"
+        style={{ objectPosition: backgroundPosition }}
         priority
       />
 

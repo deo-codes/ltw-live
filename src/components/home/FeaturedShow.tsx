@@ -1,18 +1,17 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
 
 export default function FeaturedShow() {
   return (
     <section className="relative overflow-hidden bg-black py-24">
       <div className="pointer-events-none absolute inset-0" aria-hidden="true">
         <Image
-          src="/images/events/coronation-2026-v2.jpg"
+          src="/images/events/danimania-pure-greatness.jpg"
           alt=""
           fill
           sizes="100vw"
-          className="scale-110 object-cover object-center blur-xl"
+          className="scale-110 object-cover object-center blur-2xl"
         />
         <div className="absolute inset-0 bg-black/70" />
       </div>
@@ -94,46 +93,6 @@ export default function FeaturedShow() {
              LTW's 8th summer annual event, Danimania: Pure Greatness, promises an action-packed night of professional wrestling you won't want to miss! Featuring top talent from LTW, this event will showcase thrilling matches, intense rivalries, and unforgettable moments that will leave fans on the edge of their seats. Get your tickets now and be part of the excitement!
             </p>
 
-            <div className="mt-10 flex flex-wrap gap-4">
-
-              <Link
-                href="/shows"
-                className="
-                  rounded-lg
-                  bg-yellow-400
-                  px-8
-                  py-4
-                  font-bold
-                  text-black
-                  transition-all
-                  duration-300
-                  hover:scale-105
-                  hover:bg-yellow-300
-                "
-              >
-                Buy Tickets
-              </Link>
-
-              <Link
-                href="/media"
-                className="
-                  rounded-lg
-                  border
-                  border-yellow-400
-                  px-8
-                  py-4
-                  font-bold
-                  text-white
-                  transition-all
-                  duration-300
-                  hover:bg-yellow-400
-                  hover:text-black
-                "
-              >
-                Watch Trailer
-              </Link>
-
-            </div>
           </div>
         </div>
       </div>

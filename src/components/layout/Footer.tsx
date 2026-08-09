@@ -3,11 +3,10 @@ import Link from "next/link";
 
 const navLinks = [
   { label: "Home", href: "/" },
-  { label: "Shows", href: "/shows" },
   { label: "Roster", href: "/roster" },
   { label: "Championships", href: "/championships" },
   { label: "Media", href: "/media" },
-  { label: "History", href: "/history" },
+  { label: "News", href: "/news" },
   { label: "Store", href: "/store" },
 ];
 
@@ -43,12 +42,6 @@ export default function Footer() {
             </p>
 
             <div className="mt-8 flex flex-wrap gap-3">
-              <Link
-                href="/shows"
-                className="rounded-full border border-yellow-400/30 px-4 py-2 text-sm font-bold text-yellow-400 transition-colors hover:border-yellow-400 hover:bg-yellow-400 hover:text-black"
-              >
-                View Shows
-              </Link>
               <Link
                 href="/media"
                 className="rounded-full border border-zinc-700 px-4 py-2 text-sm font-bold text-zinc-200 transition-colors hover:border-yellow-400/70 hover:text-yellow-400"

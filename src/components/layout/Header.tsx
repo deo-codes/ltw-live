@@ -5,17 +5,17 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { Menu, Search } from "lucide-react";
 import MobileMenu from "./MobileMenu";
+import SearchOverlay from "./SearchOverlay";
 
 const leftNav = [
   { label: "Home", href: "/" },
-  { label: "Shows", href: "/shows" },
   { label: "Roster", href: "/roster" },
   { label: "Championships", href: "/championships" },
 ];
 
 const rightNav = [
   { label: "Media", href: "/media" },
-  { label: "History", href: "/history" },
+  { label: "News", href: "/news" },
   { label: "Store", href: "/store" },
 ];
 
@@ -28,6 +28,7 @@ export default function Header({
 }: HeaderProps) {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const [isSearchOpen, setIsSearchOpen] = useState(false);
 
   useEffect(() => {
     const mediaQuery = window.matchMedia("(min-width: 1280px)");
@@ -113,7 +114,10 @@ export default function Header({
           aria-label="Open menu"
           aria-expanded={isMobileMenuOpen}
           aria-controls="mobile-site-menu"
-          onClick={() => setIsMobileMenuOpen(true)}
+          onClick={() => {
+            setIsSearchOpen(false);
+            setIsMobileMenuOpen(true);
+          }}
           className="rounded-full p-2 text-zinc-200 transition-colors hover:text-yellow-400"
         >
           <Menu className="size-6" strokeWidth={2.2} />
@@ -132,6 +136,12 @@ export default function Header({
 
         <button
           aria-label="Search"
+          aria-expanded={isSearchOpen}
+          aria-controls="site-search-overlay"
+          onClick={() => {
+            setIsMobileMenuOpen(false);
+            setIsSearchOpen(true);
+          }}
           className="rounded-full p-2 text-zinc-200 transition-colors hover:text-yellow-400"
         >
           <Search className="size-5" strokeWidth={2.2} />
@@ -207,6 +217,12 @@ export default function Header({
 
         <button
           aria-label="Search"
+          aria-expanded={isSearchOpen}
+          aria-controls="site-search-overlay"
+          onClick={() => {
+            setIsMobileMenuOpen(false);
+            setIsSearchOpen(true);
+          }}
           className="ml-6 rounded-full p-2 text-zinc-200 transition-colors hover:text-yellow-400"
         >
           <Search className="size-5" strokeWidth={2.2} />
@@ -222,6 +238,11 @@ export default function Header({
     <MobileMenu
       isOpen={isMobileMenuOpen}
       onClose={() => setIsMobileMenuOpen(false)}
+    />
+
+    <SearchOverlay
+      isOpen={isSearchOpen}
+      onClose={() => setIsSearchOpen(false)}
     />
     </header>
   );

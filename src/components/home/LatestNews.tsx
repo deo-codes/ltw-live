@@ -2,41 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-
-const news = [
-{
-category: "Announcement",
-title: "Tommy Vieira Memorial Battle Royal",
-date: "June 5, 2026",
-excerpt:
-"At DaniMania 2026, the Tommy Vieira Memorial Battle Royal will take place to honor his legacy.",
-slug: "/news/tommy-vieira-memorial-battle-royal",
-image: "/images/events/tommy-vieira-memorial-battle-royal.jpg",
-imageAlt: "LTW ring under dramatic event lighting",
-},
-
-{
-category: "Roster Update",
-title: "New Talent Arrives In Locked Target Wrestling",
-date: "June 1, 2026",
-excerpt:
-"A new competitor steps into LTW looking to make an immediate impact.",
-slug: "/news/new-talent-arrives",
-image: "/images/hero/roster-banner.png",
-imageAlt: "LTW roster spotlight banner",
-},
-
-{
-category: "Danimania 2026",
-title: "Danimania: Pure Greatness",
-date: "May 28, 2026",
-excerpt:
- "LTW's annual summer event returns. Stay tuned for more details on date, location, and match card.",
-slug: "/news/2026-danimania",
-image: "/images/events/2026-danimania.png",
-imageAlt: "2026 Danimania event promotion graphic",
-},
-];
+import { news } from "@/app/data/news";
 
 export default function LatestNews() {
   return (
@@ -56,8 +22,8 @@ export default function LatestNews() {
 
         <p className="mt-4 max-w-2xl text-gray-400">
           Follow the latest announcements, match cards,
-          championship updates, and breaking news from
-          Locked Target Wrestling.
+          championship updates, and breaking news from both 
+          Locked Target Wrestling and Regal Brotherhood Wrestling.
         </p>
       </div>
 
@@ -88,7 +54,7 @@ export default function LatestNews() {
       {news.map((article) => (
         <Link
           key={article.title}
-          href={article.slug}
+          href={`/news/${article.slug}`}
           className="group"
         >
           <article
