@@ -106,6 +106,7 @@ export default function HeroCarosel() {
             alt={current.title}
             fill
             priority
+            quality={72}
             className="object-cover"
             sizes="100vw"
             style={{ objectPosition: backgroundPosition }}

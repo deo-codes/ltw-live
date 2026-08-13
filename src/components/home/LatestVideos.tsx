@@ -50,6 +50,8 @@ function VideoCard({ video }: { video: Video }) {
             src={video.thumbnail}
             alt={video.title}
             fill
+            quality={65}
+            sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 25vw"
             className="object-cover transition-transform duration-500 group-hover:scale-110"
           />
 

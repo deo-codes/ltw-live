@@ -45,7 +45,7 @@ export const roster: Wrestler[] = [
     ],
 
     bio: "cocky, arrogant kid who thinks he should just be handed title matches",
-    heroBanner: "/images/hero/aj-anderson-hero.jpg"
+    heroBanner: "/images/hero/aj-anderson-hero.JPG"
   },
 
   {
@@ -93,7 +93,7 @@ export const roster: Wrestler[] = [
     ],
 
     bio: "A real life Jekyll and Hyde his twisted split personality has people on their feet every-time he walks through that curtain he’s not afraid to put his body on the line for the prize.",
-    heroBanner: "/images/hero/lawerence-spiral-hero.jpg"
+    heroBanner: "/images/hero/lawerence-spiral-hero.JPG"
   },
 
   {
@@ -132,7 +132,7 @@ export const roster: Wrestler[] = [
     ],
 
     bio: "Gangsta X is a street savy Brawler from Philly who is looking to make it out the mud by any means necessary,A powerhouse in his own right and a very dangerous striker, Can take a lickin' and keep on kickin', Make sure your never In X's Crosshairs or otherwise You'll Be X'D Out!!!",
-    heroBanner: "/images/hero/gangsta-x-hero.jpg"
+    heroBanner: "/images/hero/gangsta-x-hero.JPG"
   },
 
     {
@@ -152,15 +152,17 @@ export const roster: Wrestler[] = [
 
       socials: [
         { platform: "Instagram", url: "https://www.instagram.com/jacktradzzltw" },
-        { platform: "Facebook", url: "https://www.facebook.com/zachary.hausleiter.96" },
-        { platform: "X", url: "https://twitter.com/jacktradzzltw" }
+        { platform: "Facebook", url: "https://www.facebook.com/jacktradzz" },
+        { platform: "X", url: "https://twitter.com/jacktradzzltw" }, 
+        
       ],
+      email: "jacktradzz1@gmail.com",
 
       finisher: "Trade Mark",
 
 
       bio: "I'm unpredictable, I'm hardworking, I'm resilient.",
-      heroBanner: "/images/hero/jack-tradzz-hero.jpg"
+      heroBanner: "/images/hero/jack-tradzz-hero.JPG"
     },
 
       {
@@ -190,7 +192,7 @@ export const roster: Wrestler[] = [
 
 
       bio: "Has a tendency to fly off the handle when he feels like theres an inequality within the Company. This gets him into situations he probably could have avoided. May not be the strongest or the fastest, but that wont stop him from standing up for what he feels is right.",
-      heroBanner: "/images/hero/adam-wolf-hero.jpg"
+      heroBanner: "/images/hero/adam-wolf-hero.JPG"
     },
 
       {
@@ -221,7 +223,7 @@ export const roster: Wrestler[] = [
       finisher: "Package Piledriver",
 
       bio: "Loner, never handed anything, had to work for everything he’s gotten.",
-      heroBanner: "/images/hero/decay-hero2.jpg"
+      heroBanner: "/images/hero/decay-hero2.JPG"
     },
 
     {
@@ -245,7 +247,31 @@ export const roster: Wrestler[] = [
       ],
       finisher: "Royal decollation, Melodies from Marie",
       bio: "A little flashy but always straight to the point.",
-      heroBanner: "/images/hero/prince-malcolm-iii-hero.jpg"
+      heroBanner: "/images/hero/prince-malcolm-iii-hero.JPG"
+    },
+
+    {
+      id: "30",
+      name: "BioHazard",
+      slug: "biohazard",
+      image: "/images/roster/biohazard-update.png",
+      brand: "RBW",
+      hometown: "Valhalla",
+      height: "6'2",
+      weight: "250 lbs",
+      championships: [
+        "RBW Continental Champion",
+        "LTW Tag Team Champion",
+        "LTW 24/7 Champion"
+      ],
+      socials: [
+        { platform: "TikTok", url: "https://www.tiktok.com/@biohazard773" },
+        { platform: "X", url: "https://twitter.com/josephlavetfly" },
+        
+      ],
+      finisher: "Unknown",
+      bio: "Coming out from the deepest depths of hell; BioHazard is an intimidating opponent that no man wants to see standing across the ring from them. Currently aligned as a prominent member of the Final Chapter with his valet and ring manager Ember Rose, Tag Team Partner Gunnar, and the All Father – he uses his dominating presence to intimidate anyone who steps in his way. Anytime anyone ever steps in the ring with him, the outcome remains – looking up at the ceiling, as his arm is raised in victory. Currently, he is the reigning, and undefeated RBW Continental Champion, and welcomes any challenge, any opponent, at any time..",
+      heroBanner: "/images/hero/biohazard-hero.JPG"
     },
 
     {
@@ -270,7 +296,7 @@ export const roster: Wrestler[] = [
       ],
        // finisher: "Royal decollation, Melodies from Marie",
       bio: "Valet and Manager for the Final Chapter (Gunnar, BioHazard & The All Father); Fierce and loyal to her stable, while being highly protective and aggressive when it calls for it. She will do anything in her power to make sure the Final Chapter stays on top, and is a no nonsense competitor when other factions insert themselves into Final Chapter business. She has held the 24/7 Championship twice, and uses anything necessary to make sure that hers, and any gold the Final Chapter possesses, stays right where it belongs. She can be seen at ring side holding those championships when they are not on the line, as well as returning them to their rightful holder once matches have ended. She is the mouthpiece of the Final Chapter – she does the talking, they handle everything else. ",
-      heroBanner: "/images/hero/ember-rose-hero.jpg"
+      heroBanner: "/images/hero/ember-rose-hero.JPG"
     },
 
     {
@@ -295,7 +321,7 @@ export const roster: Wrestler[] = [
       ],
        finisher: "Rockstar Cutter",
       bio: "I'm that larger than Life character not even a cartoon ,the man ,the myth ,the legend still in the making yours truly Rockstar Joey T ",
-      heroBanner: "/images/hero/rockstar-joey-t-hero.jpg"
+      heroBanner: "/images/hero/rockstar-joey-t-hero.JPG"
     },
 
     {
@@ -319,7 +345,7 @@ export const roster: Wrestler[] = [
       ],
        // finisher: "Royal decollation, Melodies from Marie",
       bio: "A demonic hillbilly with a penchant for chaos.",
-      heroBanner: "/images/hero/meat-missle-hero.jpg"
+      heroBanner: "/images/hero/meat-missle-hero.JPG"
     },
 
     {
@@ -348,7 +374,7 @@ export const roster: Wrestler[] = [
       ],
       finisher: "TDM Kick",
       bio: "YANKEE TDM – “The Concrete Maverick” Born from the streets of Bayamón, Puerto Rico, Yankee TDM brings an unpredictable mix of raw power, toughness, and versatility every time he steps through the curtain. Known as “The Difference Maker,” Yankee combines a hard-hitting brawler mentality with a hybrid style that allows him to adapt to any opponent and any fight. With experience across multiple promotions, Yankee TDM has proven he can stand alone, fight alongside a partner, or bring chaos wherever he’s needed. Fueled by passion, pride, and the mentality that pressure creates greatness, The Concrete Maverick refuses to crack. “You ain’t gonna catch me slipping.” “ From the Island of Death” This isn’t just wrestling… this is The Difference Maker, This is the Concrete Maverick, THIS IS YANKEETDM",
-      heroBanner: "/images/hero/yankee-tdm-hero.jpg"
+      heroBanner: "/images/hero/yankee-tdm-hero.JPG"
     },
 
     {
@@ -398,7 +424,7 @@ export const roster: Wrestler[] = [
       ],
       finisher: "Flatbush Hangover, Brooklyn Headslam",
       bio: "Ray Louis was born and raised in the heart of Brooklyn NY raised by a single mom everyone used to say you will never amount to anything so he took that to heart and kept proving people wrong about him.",
-      heroBanner: "/images/hero/ray-louis-hero.jpg"
+      heroBanner: "/images/hero/ray-louis-hero.JPG"
     },
 
      {
@@ -472,7 +498,7 @@ export const roster: Wrestler[] = [
     ],
     finisher: "Beauty of Annihilation",
     bio: "Ace Marxman, Man if many factions, faces, abilities and many traits, Ace is ready for anything thrown at him. Ace is military trained, and can switch his move set at any given time. He knows one thing, eliminate the target at any cost. To him everyone is just a target",
-    heroBanner: "/images/hero/ace-marxman-hero-v2.jpg"
+    heroBanner: "/images/hero/ace-marxman-hero-v2.JPG"
    },
    {
     id: "17",
@@ -499,7 +525,7 @@ export const roster: Wrestler[] = [
     ],
     finisher: "",
     bio: " Ace Marxman though it took a while to discover, Deep down he is Gűnnar, and Gűnnar is the decendent of the Norse God Of Thunder Thor. He know nothing other then the battle to win or die trying. Leading the Faction the final chapter to victory, or valhalla.",
-    heroBanner: "/images/hero/gunnar-hero.jpg"
+    heroBanner: "/images/hero/gunnar-hero.JPG"
    },
       {
     id: "18",
@@ -521,7 +547,7 @@ export const roster: Wrestler[] = [
     ],
     finisher: "",
     bio: "From the 10th Circle of Hell, he is the original devil. Residing in Philadelphia, PA, his goal is beyond anyones understanding. He lead the Rejeckts/ApoKalypse and ruled over LTW and now alongside Greatness he wants to show why he's One Man with Two Fates.",
-    heroBanner: "/images/hero/angel-morningstar-hero.jpg"
+    heroBanner: "/images/hero/angel-morningstar-hero.JPG"
    },
    {
     id: "19",
@@ -542,7 +568,7 @@ export const roster: Wrestler[] = [
     ],
     finisher: "",
     bio: "From Troy, NY, TIW Women's Champion for 1 year after defeating Mother Endless, and several title defenses at both LTW and TIW in North Adams, Massachusetts. Dubbed as the hitwomen for hire and the ultimate weapon in professional wrestling, Taylor One Shot is a force to be reckoned with in the ring.",
-    heroBanner: "/images/hero/taylor-one-shot-hero.jpg"
+    heroBanner: "/images/hero/taylor-one-shot-hero.JPG"
    },
    {
     id: "20",
@@ -565,7 +591,7 @@ export const roster: Wrestler[] = [
     ],
     finisher: "",
     bio: "Too legit....smooth as it gets. If you dont, take a chance swallow the regret. Say my name ....Clarke Williams. That's right casual. The Money Fight. Hailing from the blind side of upstate New York ,the baddest set of knuckles to throw em down since Mike Tyson himself. Welcome to the Boss fight !",
-    heroBanner: "/images/hero/clarke-williams-hero.jpg"
+    heroBanner: "/images/hero/clarke-williams-hero.JPG"
    },
    {
     id: "21",
@@ -586,7 +612,7 @@ export const roster: Wrestler[] = [
     ],
     finisher: "",
     bio: "George Murphy is a former security guard turned professional wrestler, known for his toughness and resilience in the ring with no nonsense attitude and having jerk-like determination to succeed.",
-    heroBanner: "/images/hero/george-murphy-hero.jpg"
+    heroBanner: "/images/hero/george-murphy-hero.JPG"
    },
    
    {
@@ -632,7 +658,7 @@ export const roster: Wrestler[] = [
     socials: [],
     finisher: "DDT/ STFU modified/ Guillotine DDT",
     bio: "Justice DeVille is a trickster opportunist that takes advantage of chaos to move himself up the company ladder, with no regard to recognized championships or management titles. Basically, a chameleon. He'll blend in or comply where needed, but it's to serve his own agenda... which is continued chaos.",
-    heroBanner: "/images/hero/justice-deville-hero.jpg"
+    heroBanner: "/images/hero/justice-deville-hero.JPG"
    },
    {
     id: "24",

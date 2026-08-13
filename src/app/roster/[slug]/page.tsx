@@ -212,6 +212,20 @@ export default async function WrestlerPage({
                   Social links coming soon.
                 </p>
               )}
+
+              {wrestler.email ? (
+                <p className="mt-4 text-sm text-zinc-200">
+                  <span className="mr-2 font-semibold uppercase tracking-[0.18em] text-zinc-400">
+                    Email:
+                  </span>
+                  <a
+                    href={`mailto:${wrestler.email}`}
+                    className="text-yellow-300 transition hover:text-yellow-200"
+                  >
+                    {wrestler.email}
+                  </a>
+                </p>
+              ) : null}
             </div>
           </div>
 

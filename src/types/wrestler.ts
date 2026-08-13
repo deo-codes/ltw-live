@@ -29,6 +29,7 @@ export interface Wrestler {
 
   championships: string[];
   socials?: SocialLink[];
+  email?: string;
   matches?: {
     title: string;
     thumbnail: string;

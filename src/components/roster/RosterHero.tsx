@@ -2,23 +2,15 @@ import Image from "next/image";
 
 export default function RosterHero() {
   return (
-    <section className="relative h-[86vh] md:h-[74vh] xl:h-[82vh] flex items-center justify-center bg-black">
-      <Image
-        src="/images/hero/roster-banner-mobilev2.jpg"
-        alt="LTW roster banner"
-        fill
-        priority
-        sizes="100vw"
-        className="object-cover object-[center_12%] md:hidden"
+    <section className="relative flex h-[86vh] items-center justify-center overflow-hidden bg-black md:h-[74vh] xl:h-[82vh]">
+      <div
+        aria-hidden="true"
+        className="absolute inset-0 bg-[url('/images/hero/roster-banner-mobilev2.jpg')] bg-cover bg-[center_12%] md:hidden"
       />
 
-      <Image
-        src="/images/hero/roster-page-banner.png"
-        alt="LTW roster banner"
-        fill
-        priority
-        sizes="100vw"
-        className="hidden object-cover object-[center_15%] md:block"
+      <div
+        aria-hidden="true"
+        className="absolute inset-0 hidden bg-[url('/images/hero/roster-page-banner.png')] bg-cover bg-[center_15%] md:block"
       />
 
       <div className="absolute inset-0 bg-gradient-to-b from-black/75 via-black/35 to-black/65" />

@@ -39,6 +39,8 @@ function BannerCard() {
         alt="LTW Roster"
         width={1920}
         height={1080}
+        quality={70}
+        sizes="(max-width: 768px) 100vw, 100vw"
         className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-[1.03]"
       />
 

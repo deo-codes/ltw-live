@@ -208,6 +208,8 @@ export default function ChampionshipsPage() {
                       src={title.image}
                       alt={title.name}
                       fill
+                      quality={70}
+                      sizes="(max-width: 768px) 100vw, 50vw"
                       className="object-cover group-hover:scale-105 transition-transform duration-300"
                     />
                   )}

@@ -8,6 +8,7 @@ export default function UpcomingEvents() {
 					src="/images/events/wsn-plus-coming-september.jpg"
 					alt=""
 					fill
+					quality={60}
 					sizes="100vw"
 					className="object-cover object-center opacity-40 blur-xl scale-125"
 				/>
@@ -27,6 +28,8 @@ export default function UpcomingEvents() {
 							alt="WSN Plus coming this September ad"
 							width={768}
 							height={768}
+							quality={70}
+							sizes="(max-width: 768px) 100vw, 768px"
 							priority={false}
 							className="mx-auto h-auto w-full max-w-2xl rounded-xl border border-cyan-300/30 drop-shadow-[0_0_28px_rgba(34,211,238,0.45)]"
 						/>

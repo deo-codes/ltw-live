@@ -10,6 +10,7 @@ export default function FeaturedShow() {
           src="/images/events/danimania-pure-greatness.jpg"
           alt=""
           fill
+          quality={60}
           sizes="100vw"
           className="scale-110 object-cover object-center blur-2xl"
         />
@@ -51,6 +52,8 @@ export default function FeaturedShow() {
               alt="Locked Target Wrestling presents Danimania Pure Greatness"
               width={900}
               height={1200}
+              quality={70}
+              sizes="(max-width: 1024px) 100vw, 50vw"
               className="
                 h-full
                 w-full
