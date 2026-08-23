@@ -5,7 +5,7 @@ import { metadata } from "../layout";
 
 export const generateMetadata = () => ({
   ...metadata,
-  title: "Championships | LTW",
+  title: "Championships | Locked Target Wrestling & Regal Brotherhood Wrestling",
   description: "LTW Championship Titles and Champions",
 });
 

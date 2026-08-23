@@ -54,7 +54,7 @@ export const generateMetadata = ({ params }: { params: { slug: string } }) => {
   const championship = championships.find((c) => c.slug === params.slug);
   return {
     ...metadata,
-    title: `${championship?.name || "Championship"} | LTW`,
+    title: `${championship?.name || "Championship"} | Locked Target Wrestling & Regal Brotherhood Wrestling`,
     description: championship?.description,
   };
 };

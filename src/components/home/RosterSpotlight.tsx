@@ -23,7 +23,7 @@ function SectionHeader() {
       </h2>
 
       <p className="mx-auto mt-6 max-w-2xl text-lg text-gray-400">
-        From rising stars to seasoned veterans, both brands' rosters
+        From rising stars to seasoned veterans, both brands&apos; rosters
         bring intensity, passion, and unforgettable moments every
         time they step inside the ring.
       </p>
@@ -33,7 +33,7 @@ function SectionHeader() {
 
 function BannerCard() {
   return (
-    <div className="group relative overflow-hidden rounded-3xl border border-yellow-400/20">
+    <div className="group relative aspect-[4/3] overflow-hidden rounded-3xl border border-yellow-400/20 sm:aspect-[16/9]">
       <Image
         src="/images/roster/roster-main-desktop.jpg"
         alt="LTW Roster"
@@ -48,7 +48,7 @@ function BannerCard() {
 
       <div className="absolute inset-0 flex items-end">
         <div className="p-4 sm:p-6 md:p-10">
-          <h3 className="text-2xl leading-tight font-black uppercase text-white sm:text-3xl md:text-5xl">
+          <h3 className="text-xl leading-tight font-black uppercase text-white sm:text-3xl md:text-5xl">
             Roster Spotlight
           </h3>
 

@@ -21,12 +21,12 @@ export async function generateMetadata({
 
   if (!article) {
     return {
-      title: "News Article | LTW",
+      title: "News Article | Locked Target Wrestling & Regal Brotherhood Wrestling",
     };
   }
 
   return {
-    title: `${article.title} | LTW News`,
+    title: `${article.title} | Locked Target Wrestling & Regal Brotherhood Wrestling`,
     description: article.excerpt,
   };
 }

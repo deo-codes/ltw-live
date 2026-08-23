@@ -3,7 +3,7 @@ import SiteShell from "@/components/layout/SiteShell";
 import StaticHero from "@/components/sections/StaticHero";
 
 export const metadata: Metadata = {
-  title: "Store | LTW",
+  title: "Store | Locked Target Wrestling & Regal Brotherhood Wrestling",
   description: "Official Locked Target Wrestling store.",
 };
 

@@ -12,6 +12,21 @@ export type NewsArticle = {
 export const news: NewsArticle[] = [
   {
     category: "Announcement",
+    title: "Danimania: Pure Greatness Postponed",
+    date: "August 22, 2026",
+    excerpt:
+      "Danimania: Pure Greatness has been postponed. LTW will share the new event date as soon as it is confirmed.",
+    slug: "danimania-pure-greatness-postponed",
+    image: "/images/events/danimania-pure-greatness.jpg",
+    imageAlt: "Danimania Pure Greatness event poster",
+    content: [
+      "Locked Target Wrestling announces that Danimania: Pure Greatness has been postponed from its previously scheduled date.",
+      "The event will not take place on Sunday, August 30, 2026. A new date and updated event details will be announced once they are confirmed.",
+      "Thank you to the LTW and RBW community for your patience and continued support. Please follow LTW's official channels for the next announcement.",
+    ],
+  },
+  {
+    category: "Announcement",
     title: "Tommy Vieira Memorial Battle Royal",
     date: "June 5, 2026",
     excerpt:

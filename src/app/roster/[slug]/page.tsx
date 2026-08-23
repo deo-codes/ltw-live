@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { roster } from "../../data/roster";
 import Image from "next/image";
@@ -6,6 +7,22 @@ import SiteShell from "@/components/layout/SiteShell";
 import type { SocialPlatform } from "@/types/wrestler";
 
 const DEFAULT_WRESTLER_HERO_BANNER = "/images/hero/wrestler-match-hero.jpg";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const wrestler = roster.find((item) => item.slug === slug);
+
+  return {
+    title: wrestler
+      ? `${wrestler.name} | Locked Target Wrestling & Regal Brotherhood Wrestling`
+      : "Roster Profile | Locked Target Wrestling & Regal Brotherhood Wrestling",
+    description: wrestler?.bio ?? "Locked Target Wrestling roster profile.",
+  };
+}
 
 export const generateStaticParams = () => {
   return roster.map((wrestler) => ({

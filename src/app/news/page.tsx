@@ -6,7 +6,7 @@ import StaticHero from "@/components/sections/StaticHero";
 import { news } from "@/app/data/news";
 
 export const metadata: Metadata = {
-  title: "News | LTW",
+  title: "News | Locked Target Wrestling & Regal Brotherhood Wrestling",
   description: "Latest announcements and updates from Locked Target Wrestling.",
 };
 

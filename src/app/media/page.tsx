@@ -1,6 +1,12 @@
+import type { Metadata } from "next";
 import SiteShell from "@/components/layout/SiteShell";
 import MediaHero from "@/components/media/MediaHero";
 import MediaArchive from "@/components/media/MediaArchive";
+
+export const metadata: Metadata = {
+  title: "Media | Locked Target Wrestling & Regal Brotherhood Wrestling",
+  description: "Watch the latest videos and highlights from LTW and RBW.",
+};
 
 export default function MediaPage() {
   return (

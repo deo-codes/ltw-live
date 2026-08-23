@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import CountdownLanding from "@/components/countdown/CountdownLanding";
 
 export const metadata: Metadata = {
-  title: "Launching Soon",
+  title: "Launching Soon | Locked Target Wrestling & Regal Brotherhood Wrestling",
   description: "Temporary countdown page while the site is finalized.",
 };
 
