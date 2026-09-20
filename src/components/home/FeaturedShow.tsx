@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 
 export default function FeaturedShow() {
   return (
@@ -26,7 +27,7 @@ export default function FeaturedShow() {
           </span>
 
           <h2 className="mt-3 text-4xl font-black uppercase text-white md:text-6xl">
-           Danimania: Pure Greatness has been postponed
+           Danimania: Pure Greatness 
           </h2>
         </div>
 
@@ -48,7 +49,7 @@ export default function FeaturedShow() {
           {/* Poster */}
           <div className="relative overflow-hidden rounded-2xl">
             <Image
-              src="/images/events/danimania-pure-greatness.jpg"
+              src="/images/events/2026danimania-pure-greatness.jpg"
               alt="Locked Target Wrestling presents Danimania Pure Greatness"
               width={900}
               height={1200}
@@ -76,7 +77,7 @@ export default function FeaturedShow() {
 
             <div className="mt-6">
               <Image
-                src="/images/events/2026-danimania.png"
+                src="/images/events/DANIMANIA2026-HalloweenTheme.png"
                 alt="Danimania 2026 logo"
                 width={900}
                 height={280}
@@ -86,13 +87,31 @@ export default function FeaturedShow() {
             </div>
 
             <div className="mt-6 space-y-2 text-gray-300">
-              <p className="font-bold text-yellow-400">New date to be announced</p>
-              <p>The previously scheduled August 30 event will not take place as planned.</p>
+              <p className="font-bold text-yellow-400">Sunday, October 18</p>
+              <p>Doors open: 3:00 PM</p>
+              <p>Belltime: 4:00 PM</p>
             </div>
 
             <p className="mt-8 max-w-xl text-lg text-gray-400">
              Danimania: Pure Greatness will return with championship stakes, personal grudges, and high-impact matches featuring stars from across LTW and RBW. Follow LTW for the new date and updated event information.
             </p>
+
+            <div className="mt-8 flex flex-wrap gap-3">
+              <a
+                href="https://paypal.me/LTWlive2018"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block rounded-lg bg-yellow-400 px-8 py-3 font-bold uppercase text-black transition-all duration-300 hover:bg-yellow-300 hover:shadow-lg hover:shadow-yellow-400/50"
+              >
+                Buy Tickets
+              </a>
+              <Link
+                href="/danimania"
+                className="inline-block rounded-lg border border-yellow-400 px-8 py-3 font-bold uppercase text-white transition-all duration-300 hover:bg-yellow-400 hover:text-black"
+              >
+                View Event Page
+              </Link>
+            </div>
 
           </div>
         </div>

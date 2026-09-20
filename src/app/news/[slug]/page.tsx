@@ -132,7 +132,14 @@ export default async function NewsDetailPage({
                   </div>
 
                   <div className="mt-7 flex flex-wrap gap-3">
-                    
+                    <a
+                      href="https://paypal.me/LTWlive2018"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-block rounded-lg bg-yellow-400 px-6 py-3 font-bold uppercase text-black transition-all duration-300 hover:bg-yellow-300 hover:shadow-lg hover:shadow-yellow-400/50"
+                    >
+                      Buy Tickets
+                    </a>
                     <Link
                       href="/news"
                       className="inline-block rounded-lg border border-yellow-400 px-6 py-3 font-bold text-white transition-all duration-300 hover:bg-yellow-400 hover:text-black"

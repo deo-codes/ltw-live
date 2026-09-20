@@ -12,12 +12,27 @@ export type NewsArticle = {
 export const news: NewsArticle[] = [
   {
     category: "Announcement",
+    title: "Danimania: Pure Greatness Date Confirmed - Tickets on Sale",
+    date: "September 9, 2026",
+    excerpt:
+      "Danimania: Pure Greatness is confirmed for Sunday, October 18, 2026. Tickets are now available to order online via PayPal.",
+    slug: "danimania-date-confirmed-tickets-on-sale",
+    image: "/images/events/LTWDANIMANIA2026V2.jpg",
+    imageAlt: "Danimania Pure Greatness Live Pro Wrestling Event Poster",
+    content: [
+      "Locked Target Wrestling is excited to announce that Danimania: Pure Greatness is officially scheduled for Sunday, October 18, 2026.",
+      "Doors will open at 3:00 PM with belltime at 4:00 PM. Tickets are now available to purchase online via PayPal.",
+      "Get your tickets today and join us for an evening of championship stakes, personal grudges, and high-impact matches featuring stars from across LTW and RBW. We look forward to seeing you there!",
+    ],
+  },
+  {
+    category: "Announcement",
     title: "Danimania: Pure Greatness Postponed",
     date: "August 22, 2026",
     excerpt:
       "Danimania: Pure Greatness has been postponed. LTW will share the new event date as soon as it is confirmed.",
     slug: "danimania-pure-greatness-postponed",
-    image: "/images/events/danimania-pure-greatness.jpg",
+    image: "/images/events/2026danimania-pure-greatness.jpg",
     imageAlt: "Danimania Pure Greatness event poster",
     content: [
       "Locked Target Wrestling announces that Danimania: Pure Greatness has been postponed from its previously scheduled date.",

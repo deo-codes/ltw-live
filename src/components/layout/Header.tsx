@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 import { Menu, Search } from "lucide-react";
 import MobileMenu from "./MobileMenu";
 import SearchOverlay from "./SearchOverlay";
+import NavbarCountdown from "@/components/countdown/NavbarCountdown";
 
 const leftNav = [
   { label: "Home", href: "/" },
@@ -190,6 +191,10 @@ export default function Header({
             "
           />
         </Link>
+
+        <div className="px-4">
+          <NavbarCountdown />
+        </div>
 
         <div className="h-9 w-px bg-zinc-700/80" />
 
