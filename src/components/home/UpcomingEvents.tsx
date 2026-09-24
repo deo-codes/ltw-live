@@ -37,6 +37,17 @@ export default function UpcomingEvents() {
 						<p className="mx-auto mt-4 max-w-3xl text-base text-cyan-50/80 sm:text-lg">
 							Catch LTW content on WSN+ across Roku, Fire TV, Google TV, Apple TV, Android, and iOS.
 						</p>
+
+						<div className="mt-8">
+							<a
+								href="https://wsnplus.tv"
+								target="_blank"
+								rel="noopener noreferrer"
+								className="inline-block rounded-lg bg-cyan-500 px-8 py-3 font-bold uppercase tracking-wide text-black transition-all duration-200 hover:bg-cyan-400 hover:shadow-lg hover:shadow-cyan-500/50"
+							>
+								Download WSN Plus App
+							</a>
+						</div>
 					</div>
 				</div>
 			</div>
