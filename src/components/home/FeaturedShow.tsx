@@ -98,7 +98,7 @@ export default function FeaturedShow() {
 
             <div className="mt-8 flex flex-wrap gap-3">
               <a
-                href="https://paypal.me/LTWlive2018"
+                href="https://paypal.me/LOCKEDTARGETWRESTLIN"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block rounded-lg bg-yellow-400 px-8 py-3 font-bold uppercase text-black transition-all duration-300 hover:bg-yellow-300 hover:shadow-lg hover:shadow-yellow-400/50"
