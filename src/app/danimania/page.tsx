@@ -3,8 +3,32 @@ import Image from "next/image";
 import SiteShell from "@/components/layout/SiteShell";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://ltwlivewrestling.com"),
   title: "Danimania: Pure Greatness | Locked Target Wrestling",
   description: "Danimania: Pure Greatness live professional wrestling event details and match card.",
+  alternates: {
+    canonical: "/danimania",
+  },
+  openGraph: {
+    title: "Danimania: Pure Greatness | Locked Target Wrestling",
+    description: "Danimania: Pure Greatness live professional wrestling event details and match card.",
+    url: "/danimania",
+    siteName: "Locked Target Wrestling & Regal Brotherhood Wrestling",
+    locale: "en_US",
+    type: "website",
+    images: [
+      {
+        url: "/images/events/2026danimania-pure-greatness.jpg",
+        alt: "Danimania: Pure Greatness 2026 event poster",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Danimania: Pure Greatness | Locked Target Wrestling",
+    description: "Danimania: Pure Greatness live professional wrestling event details and match card.",
+    images: ["/images/events/2026danimania-pure-greatness.jpg"],
+  },
 };
 
 const matchCards = [

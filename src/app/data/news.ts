@@ -11,6 +11,20 @@ export type NewsArticle = {
 
 export const news: NewsArticle[] = [
   {
+    category: "RBW Announcement",
+    title: "RBW: Destruction of Parliament",
+    date: "September 26, 2026",
+    excerpt:
+      "Regal Brotherhood Wrestling presents Destruction of Parliament on Sunday, October 11, 2026, at The Silverton Volunteer Fire Company in Toms River, New Jersey.",
+    slug: "rbw-destruction-of-parliament",
+    image: "/images/events/Destruction-Parliament-Banner.jpg",
+    imageAlt: "Destruction of Parliament event banner",
+    content: [
+      "Regal Brotherhood Wrestling is bringing Destruction of Parliament to The Silverton Volunteer Fire Company on Sunday, October 11, 2026.",
+      "Join RBW at 15 Kittle Creek Road, Toms River, NJ 08753, one week before Danimania: Pure Greatness.",
+    ],
+  },
+  {
     category: "Announcement",
     title: "Danimania: Pure Greatness Date Confirmed - Tickets on Sale",
     date: "September 9, 2026",

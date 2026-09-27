@@ -183,6 +183,17 @@ export default async function NewsDetailPage({
                 <p key={paragraph}>{paragraph}</p>
               ))}
             </div>
+
+            {article.slug === "rbw-destruction-of-parliament" && (
+              <div className="mt-8">
+                <Link
+                  href="/destruction-of-parliament"
+                  className="inline-block rounded-lg bg-yellow-400 px-6 py-3 font-bold uppercase text-black transition hover:bg-yellow-300"
+                >
+                  View Event and Match Card
+                </Link>
+              </div>
+            )}
           </article>
 
           {isDanimania && (
