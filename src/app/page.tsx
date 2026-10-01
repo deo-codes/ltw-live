@@ -7,6 +7,7 @@ import LatestNews from "@/components/home/LatestNews";
 import UpcomingEvents from "@/components/home/UpcomingEvents";
 import HeroCarosel from "@/components/home/HeroCarosel";
 import CountdownLanding from "@/components/countdown/CountdownLanding";
+import LatestRBWEvent from "@/components/home/LatestRBWEvent";
 
 export const metadata: Metadata = {
   title: "The Official Site of Locked Target Wrestling & Regal Brotherhood Wrestling",
@@ -27,6 +28,8 @@ export default function HomePage() {
   return (
     <SiteShell>
       <HeroCarosel />
+
+      <LatestRBWEvent />
 
       <FeaturedShow />
     

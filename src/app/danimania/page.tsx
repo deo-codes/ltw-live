@@ -61,6 +61,11 @@ const matchCards = [
     title: "Tony Dempsey vs. Tony Emerald",
     subtitle: "RBW Intercontinental Championship",
     image: "/images/events/2026-danimania/match-06.png",
+  },
+  {
+    title: "Biohazard (with Ember Rose) vs. Lawerence Spiral",
+    subtitle: "3 Stages of Hell  for the Unified Regal Continental Championship",
+    image: "/images/events/2026-danimania/match-07.png",
   }
 ];
 

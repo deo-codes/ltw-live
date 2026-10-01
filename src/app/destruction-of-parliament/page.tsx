@@ -50,6 +50,26 @@ const matchCards: { title: string; subtitle: string; image: string }[] = [
       title: "Singles Match",
       subtitle: "Gangsta X vs. Adam Wolf",
       image: "/images/events/destruction-parliament/Destruction-Parliament-Card03-SiteOnly.jpg"
+    },
+    {
+      title: "Singles Match",
+      subtitle: "Charlie \"The Axe\" Bonifer vs. Mystery Opponent",
+      image: "/images/events/destruction-parliament/Destruction-Parliament-Card04-SiteOnly.jpg"
+    },
+    {
+      title: "Singles Match",
+      subtitle: "Drax Maysin vs. Prince Malcolm III",
+      image: "/images/events/destruction-parliament/Destruction-Parliament-Card05-SiteOnly.jpg"
+    },
+    {
+      title: "Singles Match",
+      subtitle: "Yankee TDM vs. Günnar",
+      image: "/images/events/destruction-parliament/Destruction-Parliament-Card06-SiteOnly.png"
+    },
+    {
+      title: "Champion vs. Champion Match",
+      subtitle: "\"Rockstar\" Joey T vs. Tony Emerald",
+      image: "/images/events/destruction-parliament/Destruction-Parliament-Card07-SiteOnly.jpg"
     }
 ];
 
@@ -81,6 +101,9 @@ export default function DestructionOfParliamentPage() {
             </p>
             <p className="mt-3 text-lg text-zinc-300">
               The Silverton Volunteer Fire Company | 15 Kittle Creek Road, Toms River, NJ 08753
+            </p>
+            <p className="mt-3 text-lg text-zinc-300">
+              Doors open at 1:00 PM | Belltime at 2:00 PM
             </p>
             <a
               href="https://www.paypal.com/paypalme/RayV042?country.x=US&locale.x=en_US"
